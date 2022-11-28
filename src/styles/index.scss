@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@font-face {
+  font-family: GeneralSans;
+  src: url(/fonts/GeneralSans-Regular.ttf);
+}
+
+$javascript-color: #f0db4f;
+$general-font: GeneralSans;
+
+.bootstrap {
+  color: #815cb8;
+  font-weight: bold;
+}
+
+.react {
+  color: #00d8ff;
+  font-weight: bold;
+}
+
+.javascript-icon {
+  color: $javascript-color;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Download Button */
+
+#downloadbutton-link {
+  text-decoration: none;
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+
+#downloadbutton-wrapper {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(rgb(255, 255, 255) 0%, rgb(217, 223, 255) 100%) repeat
+    scroll 0% 0%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px,
+    rgba(23, 0, 102, 0.2) 0px 20px 40px,
+    rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
+  border-radius: 20px;
+  height: 75px;
+  padding: 12px;
+  display: grid;
+  border: 0px none;
+  grid-template-columns: 53px auto;
+  gap: 20px;
+}
+
+#downloadbutton-textwrapper {
+  display: grid;
+  text-align: left;
+}
+
+#downloadbutton-textwrapper > p {
+  color: black !important;
+}
+
+#resume-text {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#resume-downloadtext {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#iconcv {
+  line-height: 1.5;
+}
+
+/* About Section */
+/* About Section */
+/* About Section */
+
+#about {
+  height: 1550px;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+}
+
+#about-background {
+  background-image: url(../images/coding-gif2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1550px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 100;
+}
+
+#abouth2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8vh;
+  color: rgb(255, 255, 255);
+  padding-top: 8vh;
+}
+
+.circle1 {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(rgb(255, 255, 255) 0%, rgb(12, 158, 255) 100%) repeat scroll
+    0% 0%;
+  border-radius: 50px;
+  border: 2px black solid;
+  box-shadow: 10px black solid;
+  display: block;
+  box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 18px 0px;
+}
+
+.icons {
+  margin-top: 25%;
+}
+
+.icon-h3 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.paragraph1 {
+  text-align: center;
+  margin-bottom: 10vh;
+  color: rgb(255, 255, 255);
+}
+
+#about-text {
+  margin-top: 4vh;
+  color: rgb(255, 255, 255);
+}
+
+#fred-about > h2 {
+  text-align: center;
+  margin-bottom: 3vh;
+  font-weight: bold;
+}
+
+#fred-about-skills > h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+#paragraph2 {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.25) none repeat scroll 0% 0%;
+  box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 10px 0px;
+  backdrop-filter: blur(40px);
+  text-align: center;
+}
+
+#fred-photo {
+  border-radius: 100px;
+  margin: 20px;
+  box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 10px 0px;
+  margin-bottom: 30px;
+}
+
+.paragraph2 {
+  text-align: center;
+  font-family: $general-font;
+  margin-top: 10px;
+}
+
+.javascript {
+  color: $javascript-color;
+}
+
+.cls-1 {
+  fill: #00d8ff;
+}
+
+.cls-2 {
+  fill: none;
+  stroke: #00d8ff;
+  stroke-miterlimit: 10;
+  stroke-width: 24px;
+}
+
+.react-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.react-logo__circle,
+.react-logo__ring {
+  transition: ease-out 1.2s;
+  transform-origin: center;
+}
+
+.react-logo__circle {
+  transform: scale(1.3) translate(180px, 108px);
+}
+
+.react-logo__ring--1 {
+  transition: ease-out 0.7s;
+  transition-delay: 2s;
+  transform: scale(0);
+}
+
+.react-logo__ring--2 {
+  transition-delay: 0.7s;
+  transform: rotateZ(60deg);
+}
+
+.react-logo__ring--3 {
+  transition-delay: 1.2s;
+  transform: rotateZ(-60deg);
+}
+
+body:hover .react-logo__circle {
+  transform: scale(1) translate(0);
+}
+
+body:hover .react-logo__ring--1 {
+  transform: scale(1);
+}
+
+body:hover .react-logo__ring--2,
+body:hover .react-logo__ring--3 {
+  transform: rotateZ(0deg);
+}
+
+/* Projects Section */
+/* !Projects Section */
+/* Projects Section */
+
+#projects {
+  background: rgba(0, 0, 0, 0.85);
+  height: 110vh;
+}
+
+#projects-h2 {
+  text-align: center;
+  padding-top: 13vh;
+  color: #fff;
+}
+
+.card-logos {
+  width: 35px;
+}
+
+#project-image {
+  z-index: -1;
+  height: 110vh;
+  width: 100%;
+  position: absolute;
+  background-image: url(../images/coding-gif3.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Contact Section */
+/* !Contact Section */
+/* Contact Section */
+
+.background-color {
+  background: rgba(0, 0, 0, 0.6);
+  height: 75vh;
+  width: 100%;
+}
+
+.contact-container {
+  padding-top: 20vh;
+  height: 60vh;
+  margin-bottom: 15vh;
+}
+
+#contact-image {
+  z-index: -1;
+  height: 75vh;
+  width: 100%;
+  position: absolute;
+  background-image: url(../images/gradient.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact-form {
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+  line-height: 30px;
+}
+
+#contact-form {
+  input {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 0;
+    color: white;
+  }
+  textarea {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 0;
+    color: white;
+  }
+}
+
+#contact-h2 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.p-contact {
+  color: #fff;
+}
+
+form input,
+form textarea {
+  margin: 5px 0;
+}
+
+#submit {
+  float: right;
+  padding: 8px 16px;
+  border: solid #fff;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-weight: 600;
+}
+
+#submit:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #fff;
+}
+
+footer {
+  height: 26vh;
+}
+
+/* Contact Section */
+/* !Contact Section */
+/* Contact Section */
+
+#footer-bg {
+  background: rgb(8, 8, 8);
+  height: 28vh;
+  width: 100%;
+}
+
+#social-media {
+  padding: 8vh 0 0 0;
+  text-align: center;
+}
+
+#sm-2 {
+  margin: 0 25px 0 25px;
+}
+
+#copyright {
+  text-align: center;
+  font-size: small;
+  margin-top: 4vh;
+  font-weight: 600;
+  color: rgb(143, 143, 143);
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-linkedin,
+.fa-linkedin-square {
+  color: #007bb6;
+}
+
+.fa-github {
+  color: #fff;
+}
