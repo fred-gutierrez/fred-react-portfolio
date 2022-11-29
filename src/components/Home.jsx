@@ -1,17 +1,18 @@
 export function Home() {
   return (
     <section id="home">
-      <div id="home-background"></div>
       <div class="container">
         <div class="row">
           <div class="text-white pt-5 mt-5 text-center">
-            <h1 className="fw-bold">
+            <h1 className="fw-bold m-0">
               Fred David
               <br />
               Solís Gutiérrez
               <br />
             </h1>
-            <span>Software Engineer & Front-end Developer</span>
+            <span className="fs-5 fw-bold text-muted">
+              Software Engineer & Front-end Developer
+            </span>
             <p>
               Development of web sites and
               <br />

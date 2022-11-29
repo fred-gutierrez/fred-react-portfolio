@@ -8,6 +8,7 @@ var t = setInterval(function () {
 
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll("nav ul li");
+
 window.addEventListener("scroll", () => {
   let current = "";
   sections.forEach((section) => {
@@ -26,47 +27,43 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// TODO: THE SHIT BREAKS AS SOON AS IT ENTERS MOBILE MODE!!! FIX THIS!!!
-
 export function NavigationBar() {
   return (
     <div>
-      <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+      <nav class="navbar fixed-top navbar-expand-sm navbar-dark px-4">
         <a class="navbar-brand">
-          <i
-            id="terminal-icon"
-            class="fa-solid fa-terminal text-white ps-3"
-          ></i>
+          <i id="terminal-icon" class="fa-solid fa-terminal text-white"></i>
         </a>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+          {/* TODO: Fix the collapsable bar */}
           <i class="fa-solid fa-bars-staggered"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item home active">
-              <a class="nav-link" href="#home">
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">
                 Home
               </a>
             </li>
-            <li class="nav-item about">
+            <li class="nav-item">
               <a class="nav-link" href="#about">
                 About
               </a>
             </li>
-            <li class="nav-item projects">
+            <li class="nav-item">
               <a class="nav-link" href="#projects">
                 Projects
               </a>
             </li>
-            <li class="nav-item contact">
+            <li class="nav-item">
               <a class="nav-link" href="#contact">
                 Contact
               </a>

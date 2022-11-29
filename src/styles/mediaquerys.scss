@@ -2,9 +2,6 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .skills-row {
-    margin-top: 10vh;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -30,18 +27,8 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .paragraph1 {
-    margin-bottom: 50px;
-    padding: 0 30px;
-  }
-  .icon-h3 {
-    margin-bottom: -0.5px;
-  }
-  #about-background {
-    height: 2600px;
-  }
-  #about {
-    height: 2600px;
+  .navbar-collapse .ml-auto {
+    height: 100vh;
   }
   .skills-text {
     margin-top: 6vh;
