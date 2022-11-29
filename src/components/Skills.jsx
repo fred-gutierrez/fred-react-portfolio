@@ -4,7 +4,7 @@ export function Skills() {
       <h2 class="skills-text fw-bold text-center">Skills</h2>
       <div class="row mt-5">
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="90px"
               height="90px"
@@ -12,11 +12,11 @@ export function Skills() {
               alt="Sass Logo"
             />
           </div>
-          <p class="paragraph2">Sass</p>
+          <p class="text-white text-center mt-1">Sass</p>
         </div>
 
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <svg
               class="react-logo"
               id="Layer_2"
@@ -46,10 +46,10 @@ export function Skills() {
               />
             </svg>
           </div>
-          <p class="paragraph2">React</p>
+          <p class="text-white text-center mt-1">React</p>
         </div>
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="90px"
               height="90px"
@@ -58,11 +58,11 @@ export function Skills() {
               class="typescript"
             />
           </div>
-          <p class="paragraph2">TypeScript</p>
+          <p class="text-white text-center mt-1">TypeScript</p>
         </div>
 
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="113px"
               height="90px"
@@ -71,11 +71,11 @@ export function Skills() {
               class="bootstrap-img"
             />
           </div>
-          <p class="paragraph2">Bootstrap</p>
+          <p class="text-white text-center mt-1">Bootstrap</p>
         </div>
 
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="90px"
               height="90px"
@@ -84,11 +84,11 @@ export function Skills() {
               class="vite-img"
             />
           </div>
-          <p class="paragraph2">Vite</p>
+          <p class="text-white text-center mt-1">Vite</p>
         </div>
 
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="90px"
               height="90px"
@@ -97,11 +97,11 @@ export function Skills() {
               class="tailwind-img"
             />
           </div>
-          <p class="paragraph2">Tailwind</p>
+          <p class="text-white text-center mt-1">Tailwind</p>
         </div>
 
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="90px"
               height="90px"
@@ -110,11 +110,11 @@ export function Skills() {
               class="wordpress-img"
             />
           </div>
-          <p class="paragraph2">WordPress</p>
+          <p class="text-white text-center mt-1">WordPress</p>
         </div>
 
         <div class="col-6 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="90px"
               height="90px"
@@ -123,11 +123,11 @@ export function Skills() {
               class="greensock-img"
             />
           </div>
-          <p class="paragraph2">GreenSock</p>
+          <p class="text-white text-center mt-1">GreenSock</p>
         </div>
 
         <div class="col-12 col-lg-4">
-          <div class="d-flex justify-content-center jello-horizontal">
+          <div class="d-flex justify-content-center">
             <img
               width="90px"
               height="90px"
@@ -136,7 +136,7 @@ export function Skills() {
               class="gatsby-img"
             />
           </div>
-          <p class="paragraph2">Gatsby</p>
+          <p class="text-white text-center mt-1">Gatsby</p>
         </div>
       </div>
     </div>

@@ -1,36 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
 $javascript-color: #f0db4f;
+$react-color: #00d8ff;
+$bootstrap-color: #815cb8;
 
-.bootstrap {
-  color: #815cb8;
-  font-weight: bold;
+.vh-25 {
+  height: 25vh;
 }
 
-.react {
-  color: #00d8ff;
-  font-weight: bold;
+.vh-50 {
+  height: 50vh;
 }
 
-.javascript-icon {
+.vh-75 {
+  height: 75vh;
+}
+
+.bootstrap-color {
+  color: $bootstrap-color;
+}
+
+.react-color {
+  color: $react-color;
+}
+
+.javascript-color {
   color: $javascript-color;
-  font-weight: bold;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
 }
 
 /* Download Button */
@@ -101,35 +96,15 @@ a:active {
   box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 18px 0px;
 }
 
-#about-text {
-  margin-top: 4vh;
-  color: rgb(255, 255, 255);
-}
-
 #paragraph2 {
   border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 20px;
-  padding: 20px;
   background: rgba(0, 0, 0, 0.25) none repeat scroll 0% 0%;
   box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 10px 0px;
   backdrop-filter: blur(40px);
-  text-align: center;
 }
 
 #fred-photo {
-  border-radius: 100px;
-  margin: 20px;
   box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 10px 0px;
-  margin-bottom: 30px;
-}
-
-.paragraph2 {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.javascript {
-  color: $javascript-color;
 }
 
 .cls-1 {
@@ -191,30 +166,8 @@ body:hover .react-logo__ring--3 {
 /* !Projects Section */
 /* Projects Section */
 
-#projects {
-  background: rgba(0, 0, 0, 0.85);
-  height: 110vh;
-}
-
-#projects-h2 {
-  text-align: center;
-  padding-top: 13vh;
-  color: #fff;
-}
-
 .card-logos {
   width: 35px;
-}
-
-#project-image {
-  z-index: -1;
-  height: 110vh;
-  width: 100%;
-  position: absolute;
-  background-image: url(../images/coding-gif3.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* Contact Section */

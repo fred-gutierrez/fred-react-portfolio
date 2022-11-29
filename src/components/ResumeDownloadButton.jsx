@@ -5,6 +5,7 @@ export function ResumeDownloadButton() {
         id="downloadbutton-link"
         href="https://drive.google.com/uc?export=download&id=12fdE4c37nSLkMlq7QrVsTuCypHysl7Sj"
         target="_blank"
+        className="text-decoration-none"
       >
         <div id="downloadbutton-wrapper" class="slide-bottom">
           <div id="downloadbutton-iconwrapper">

@@ -16,12 +16,14 @@ export function Home() {
             <p>
               Development of web sites and
               <br />
-              applications with <i class="fa-brands fa-bootstrap bootstrap"></i>
-              <span class="bootstrap"> Bootstrap</span>,<br />
-              <i class="fa-brands fa-react react"></i>
-              <span class="react"> React</span>,{" "}
-              <i class="fa-brands fa-js javascript-icon"></i>
-              <span class="javascript-icon"> JavaScript</span> and more!
+              applications with{" "}
+              <i class="fa-brands fa-bootstrap bootstrap-color"></i>
+              <span class="bootstrap-color fw-bold"> Bootstrap</span>,<br />
+              <i class="fa-brands fa-react react-color"></i>
+              <span class="react-color fw-bold"> React</span>,{" "}
+              <i class="fa-brands fa-js javascript-color"></i>
+              <span class="javascript-color fw-bold"> JavaScript</span> and
+              more!
             </p>
           </div>
         </div>

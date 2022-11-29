@@ -1,10 +1,7 @@
 export function Offerings() {
   return (
     <div>
-      <h2
-        className="text-center text-white fw-bold text-uppercase mb-5"
-        id="abouth2"
-      >
+      <h2 className="text-center text-white fw-bold text-uppercase mt-5 mb-5">
         About
       </h2>
       <div id="icon-container" class="container">
@@ -16,7 +13,7 @@ export function Offerings() {
               </div>
             </div>
             <h3 class="fw-bold text-center text-white mt-1">Intuitive</h3>
-            <p class="text-center text-white mb-5 px-3">
+            <p class="text-center text-white mb-5 aboutTextParagraph">
               High inclination for the ease of use, intuitive UX/UI.
             </p>
           </div>
@@ -28,7 +25,7 @@ export function Offerings() {
               </div>
             </div>
             <h3 class="fw-bold text-center text-white mt-1">Fast</h3>
-            <p class="text-center text-white mb-5">
+            <p class="text-center text-white mb-5 aboutTextParagraph">
               Quick load times accompanied with smooth interactivity. I use
               Google Lighthouse to ensure this.
             </p>
@@ -41,7 +38,7 @@ export function Offerings() {
               </div>
             </div>
             <h3 class="fw-bold text-center text-white mt-1">Dynamic</h3>
-            <p class="text-center text-white mb-5 px-3">
+            <p class="text-center text-white mb-5 px-3 aboutTextParagraph">
               Websites don't have to be static, I love making pages come to
               life.
             </p>
@@ -54,7 +51,7 @@ export function Offerings() {
               </div>
             </div>
             <h3 class="fw-bold text-center text-white mt-1">Responsive</h3>
-            <p class="text-center text-white mb-5 px-3">
+            <p class="text-center text-white mb-5 px-3 aboutTextParagraph">
               Mobile-first approach, my designs will work on any device/screen.
             </p>
           </div>

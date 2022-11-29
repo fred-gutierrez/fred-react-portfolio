@@ -1,10 +1,10 @@
 export function AboutMe() {
   return (
-    <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-white">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-white text-center">
       <h2 className="fw-bold text-center mb-4">About me</h2>
-      <div id="paragraph2">
+      <div className="text-center p-4 rounded-5" id="paragraph2">
         <img
-          class="wobble-hor-bottom"
+          class="wobble-hor-bottom my-4 rounded-circle"
           width="200px"
           height="200px"
           id="fred-photo"
