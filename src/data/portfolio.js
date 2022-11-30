@@ -4,7 +4,7 @@ export default [
     imgUrl: "images/femediapreview.png",
     description:
       "This project is based on my advertising startup, with it, I was able to enhance my WordPress skills, I created this website with the base editor from WordPress and without a layout template.",
-    stack: ["images/wordpress-logo.png"],
+    stack: ["images/wordpress-logo.svg"],
     link: "https://femedia.xyz/",
   },
   {
