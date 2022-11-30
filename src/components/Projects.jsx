@@ -1,3 +1,4 @@
+import portfolio from "../data/portfolio";
 import { ProjectsItem } from "./ProjectsItem";
 
 export function Projects() {
@@ -6,7 +7,16 @@ export function Projects() {
       <h2 class="fw-bold text-center pt-5 text-white">Projects</h2>
       <div class="container mt-5">
         <div class="row">
-          <ProjectsItem />
+          {portfolio.map((portfolio) => (
+            <ProjectsItem
+              imgUrl={portfolio.imgUrl}
+              title={portfolio.title}
+              description={portfolio.description}
+              stack={portfolio.stack}
+              link={portfolio.link}
+              codeLink={portfolio.codeLink}
+            />
+          ))}
         </div>
       </div>
     </div>
