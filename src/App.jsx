@@ -1,5 +1,8 @@
 import React from "react";
 import { AboutMe } from "./components/AboutMe";
+import { Contact } from "./components/Contact";
+import { ContactForm } from "./components/ContactForm";
+import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 import { NavigationBar } from "./components/NavigationBar";
 import { Offerings } from "./components/Offerings";
@@ -49,6 +52,10 @@ export function App() {
       </section>
       <section id="projects">
         <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+        {/* <Footer />  */}
       </section>
     </div>
   );

@@ -174,35 +174,6 @@ body:hover .react-logo__ring--3 {
 /* !Contact Section */
 /* Contact Section */
 
-.background-color {
-  background: rgba(0, 0, 0, 0.6);
-  height: 75vh;
-  width: 100%;
-}
-
-.contact-container {
-  padding-top: 20vh;
-  height: 60vh;
-  margin-bottom: 15vh;
-}
-
-#contact-image {
-  z-index: -1;
-  height: 75vh;
-  width: 100%;
-  position: absolute;
-  background-image: url(../images/gradient.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#contact-form {
-  margin: 40px auto 0 auto;
-  padding: 0 20px;
-  line-height: 30px;
-}
-
 #contact-form {
   input {
     background: rgba(255, 255, 255, 0.28);
@@ -222,15 +193,6 @@ body:hover .react-logo__ring--3 {
     border: 0;
     color: white;
   }
-}
-
-#contact-h2 {
-  font-weight: 600;
-  color: #fff;
-}
-
-.p-contact {
-  color: #fff;
 }
 
 form input,
