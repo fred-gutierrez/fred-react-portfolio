@@ -1,17 +1,19 @@
+import { ResumeDownloadButton } from "./ResumeDownloadButton";
+
 export function Home() {
   return (
     <section id="home">
       <div class="container">
         <div class="row">
-          <div class="text-white pt-5 mt-5 text-center">
-            <h1 className="fw-bold m-0">
+          <div class="text-white text-center" style={{ margin: "25vh 0 0 0" }}>
+            <h1 className="fs-1 fw-bold m-0">
               Fred David
               <br />
               Solís Gutiérrez
               <br />
             </h1>
-            <span className="fs-5 fw-bold text-muted">
-              Software Engineer & Front-end Developer
+            <span className="fs-2 fw-bold text-warning">
+              Front-end Developer
             </span>
             <p>
               Development of web sites and
@@ -27,6 +29,7 @@ export function Home() {
             </p>
           </div>
         </div>
+        <ResumeDownloadButton />
       </div>
     </section>
   );

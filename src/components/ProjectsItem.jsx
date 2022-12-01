@@ -32,11 +32,7 @@ export function ProjectsItem({
           <a href={link} class="btn btn-primary" target="_blank">
             <i class="fa-solid fa-arrow-up-right-from-square" /> Website
           </a>
-          <a
-            href={codeLink}
-            class="btn btn-dark bg-gradient ms-2"
-            target="_blank"
-          >
+          <a href={codeLink} class="btn btn-secondary ms-2" target="_blank">
             <i class="fa-brands fa-github" /> Code
           </a>
         </div>

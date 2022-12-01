@@ -12,9 +12,11 @@ export function ResumeDownloadButton() {
             <i id="iconcv" class="fa-solid fa-code fa-2x"></i>
             <i id="downloadbutton-ring"></i>
           </div>
-          <div id="downloadbutton-textwrapper">
-            <p id="resume-text">Resume (CV)</p>
-            <p id="resume-downloadtext">Download</p>
+          <div className="text-start d-grid text-black">
+            <p className="fw-bold m-0 text-uppercase">Resume (CV)</p>
+            <p className="m-0" id="resume-downloadtext">
+              Download
+            </p>
           </div>
         </div>
       </a>

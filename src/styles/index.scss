@@ -31,7 +31,6 @@ $bootstrap-color: #815cb8;
 /* Download Button */
 
 #downloadbutton-link {
-  text-decoration: none;
   display: block;
   width: 280px;
   margin: 0 auto;
@@ -53,25 +52,8 @@ $bootstrap-color: #815cb8;
   gap: 20px;
 }
 
-#downloadbutton-textwrapper {
-  display: grid;
-  text-align: left;
-}
-
-#downloadbutton-textwrapper > p {
-  color: black !important;
-}
-
-#resume-text {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0;
-}
-
 #resume-downloadtext {
   font-size: 13px;
-  font-weight: normal;
-  margin: 0;
 }
 
 #iconcv {
@@ -92,7 +74,6 @@ $bootstrap-color: #815cb8;
   border-radius: 50px;
   border: 2px black solid;
   box-shadow: 10px black solid;
-  display: block;
   box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 18px 0px;
 }
 
@@ -174,6 +155,10 @@ body:hover .react-logo__ring--3 {
 /* !Contact Section */
 /* Contact Section */
 
+.contact-section {
+  padding-top: 25vh;
+}
+
 #contact-form {
   input {
     background: rgba(255, 255, 255, 0.28);
@@ -201,12 +186,14 @@ form textarea {
 }
 
 #submit {
-  float: right;
   padding: 8px 16px;
   border: solid #fff;
-  background: rgba(0, 0, 0, 0);
   color: #fff;
   font-weight: 600;
+}
+
+#submit {
+  transition: 0.5s ease;
 }
 
 #submit:hover {
@@ -216,38 +203,9 @@ form textarea {
   box-shadow: 0 0 10px #fff;
 }
 
-footer {
-  height: 26vh;
-}
-
 /* Contact Section */
 /* !Contact Section */
 /* Contact Section */
-
-#footer-bg {
-  background: rgb(8, 8, 8);
-  height: 28vh;
-  width: 100%;
-}
-
-#social-media {
-  padding: 8vh 0 0 0;
-  text-align: center;
-}
-
-#sm-2 {
-  margin: 0 25px 0 25px;
-}
-
-#copyright {
-  text-align: center;
-  font-size: small;
-  margin-top: 4vh;
-  font-weight: 600;
-  color: rgb(143, 143, 143);
-  font-size: 15px;
-  margin-bottom: 0;
-}
 
 .fa-instagram {
   color: transparent;
