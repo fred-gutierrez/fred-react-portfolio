@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="vh-25 pt-5">
+    <footer className="pt-5">
       <div class="container">
         <div id="social-media" class="row">
           <div class="col-12 d-flex justify-content-center">
@@ -11,7 +11,6 @@ export function Footer() {
             >
               <i class="fa-brands fa-instagram fa-3x"></i>
               <br />
-              <span class="footer-t"></span>
             </a>
             <a
               href="https://github.com/fred-gutierrez"
@@ -20,7 +19,6 @@ export function Footer() {
             >
               <i class="fa-brands fa-github fa-3x"></i>
               <br />
-              <span class="footer-t"></span>
             </a>
 
             <a
@@ -30,7 +28,6 @@ export function Footer() {
             >
               <i class="fa-brands fa-linkedin fa-3x"></i>
               <br />
-              <span class="footer-t"></span>
             </a>
           </div>
           <p class="col-12 text-center pb-4 pt-4 fs-6 text-muted">

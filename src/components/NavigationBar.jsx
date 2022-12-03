@@ -6,6 +6,27 @@ var t = setInterval(function () {
   ele.style.visibility = ele.style.visibility == "hidden" ? "" : "hidden";
 }, blink_speed);
 
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav ul li");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+});
+
 export function NavigationBar() {
   return (
     <div>
@@ -14,7 +35,7 @@ export function NavigationBar() {
           <i id="terminal-icon" class="fa-solid fa-terminal text-white"></i>
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0 fs-2"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarToggler"
@@ -22,8 +43,7 @@ export function NavigationBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          {/* TODO: Fix the collapsable bar */}
-          <i class="fa-solid fa-bars-staggered"></i>
+          <i class="fa-solid fa-bars-staggered text-white border-0"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav ms-auto">

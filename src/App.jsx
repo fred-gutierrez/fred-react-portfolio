@@ -11,27 +11,6 @@ import "./styles/index.min.css";
 import "./styles/mediaquerys.min.css";
 import "./styles/animations.min.css";
 
-const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll("nav ul li");
-
-window.addEventListener("scroll", () => {
-  let current = "";
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-    if (pageYOffset >= sectionTop - sectionHeight / 3) {
-      current = section.getAttribute("id");
-    }
-  });
-
-  navLi.forEach((li) => {
-    li.classList.remove("active");
-    if (li.classList.contains(current)) {
-      li.classList.add("active");
-    }
-  });
-});
-
 export function App() {
   return (
     <div className="bg-black">
@@ -41,8 +20,8 @@ export function App() {
       </header>
       <section id="about">
         <Offerings />
-        <div className="container">
-          <div className="row">
+        <div className="container pb-5">
+          <div className="row pb-5">
             <AboutMe />
             <Skills />
           </div>
@@ -51,7 +30,7 @@ export function App() {
       <section id="projects">
         <Projects />
       </section>
-      <section className="vh-100" id="contact">
+      <section id="contact">
         <Contact />
         <Footer />
       </section>
