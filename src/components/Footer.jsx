@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="pt-5">
+    <footer className="pt-5 bg-black">
       <div class="container">
         <div id="social-media" class="row">
           <div class="col-12 d-flex justify-content-center">

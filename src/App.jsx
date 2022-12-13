@@ -30,7 +30,7 @@ export function App() {
       <section id="projects">
         <Projects />
       </section>
-      <section id="contact">
+      <section className="vh-100" id="contact">
         <Contact />
         <Footer />
       </section>

@@ -1,13 +1,13 @@
 import React from "react";
 
-var blink_speed = 900; // every 1000 == 1 second, adjust to suit
+var blinkSpeed = 900; // every 1000 == 1 second, adjust to suit
 var t = setInterval(function () {
   var ele = document.getElementById("terminal-icon");
   ele.style.visibility = ele.style.visibility == "hidden" ? "" : "hidden";
-}, blink_speed);
+}, blinkSpeed);
 
 const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll("nav ul li");
+const navLi = document.querySelectorAll("nav ul li a");
 
 window.addEventListener("scroll", () => {
   let current = "";
@@ -19,10 +19,10 @@ window.addEventListener("scroll", () => {
     }
   });
 
-  navLi.forEach((li) => {
-    li.classList.remove("active");
-    if (li.classList.contains(current)) {
-      li.classList.add("active");
+  navLi.forEach((a) => {
+    a.classNameList.remove("active");
+    if (a.classNameList.contains(current)) {
+      a.classNameList.add("active");
     }
   });
 });
@@ -30,12 +30,12 @@ window.addEventListener("scroll", () => {
 export function NavigationBar() {
   return (
     <div>
-      <nav class="navbar fixed-top navbar-expand-sm navbar-dark px-4">
-        <a class="navbar-brand">
-          <i id="terminal-icon" class="fa-solid fa-terminal text-white"></i>
+      <nav className="navbar fixed-top navbar-expand-sm navbar-dark px-4">
+        <a className="navbar-brand">
+          <i id="terminal-icon" className="fa-solid fa-terminal text-white"></i>
         </a>
         <button
-          class="navbar-toggler border-0 fs-2"
+          className="navbar-toggler border-0 fs-2"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarToggler"
@@ -43,27 +43,27 @@ export function NavigationBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="fa-solid fa-bars-staggered text-white border-0"></i>
+          <i className="fa-solid fa-bars-staggered text-white border-0"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">
+        <div className="collapse navbar-collapse" id="navbarToggler">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link active" href="#home">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">
+            <li className="nav-item">
+              <a className="nav-link" href="#projects">
                 Projects
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>

@@ -28,6 +28,15 @@ $bootstrap-color: #815cb8;
   color: $javascript-color;
 }
 
+.gd-text {
+  background: #0c9eff;
+  background: -webkit-linear-gradient(to right, #0c9eff 0%, #ffffff 100%);
+  background: -moz-linear-gradient(to right, #0c9eff 0%, #ffffff 100%);
+  background: linear-gradient(to right, #0c9eff 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Download Button */
 
 #downloadbutton-link {
@@ -69,8 +78,7 @@ $bootstrap-color: #815cb8;
   width: 70px;
   height: 70px;
   background: rgba(0, 0, 0, 0)
-    linear-gradient(rgb(255, 255, 255) 0%, rgb(12, 158, 255) 100%) repeat scroll
-    0% 0%;
+    linear-gradient(rgb(255, 255, 255) 0%, #0c9eff 100%) repeat scroll 0% 0%;
   border-radius: 50px;
   border: 2px black solid;
   box-shadow: 10px black solid;
@@ -190,9 +198,6 @@ form textarea {
   border: solid #fff;
   color: #fff;
   font-weight: 600;
-}
-
-#submit {
   transition: 0.5s ease;
 }
 
