@@ -6,24 +6,21 @@ var t = setInterval(function () {
   ele.style.visibility = ele.style.visibility == "hidden" ? "" : "hidden";
 }, blinkSpeed);
 
-const sections = document.querySelectorAll("section header");
-const navLi = document.querySelectorAll("nav ul li a");
-window.addEventListener("scroll", () => {
-  let current = "";
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-    if (scrollY >= sectionTop - sectionHeight / 3) {
-      current = section.getAttribute("id");
-    }
-  });
+window.addEventListener("scroll", function () {
+  var elements = document.querySelectorAll("nav ul li a");
+  var sections = document.querySelectorAll("section");
 
-  navLi.forEach((a) => {
-    a.classList.remove("active");
-    if (a.classList.contains(current)) {
-      a.classList.add("active");
+  for (var i = 0; i < sections.length; i++) {
+    var section = sections[i];
+    if (
+      window.scrollY >= section.offsetTop &&
+      window.scrollY < section.offsetTop + section.offsetHeight
+    ) {
+      elements[i].classList.add("active");
+    } else {
+      elements[i].classList.remove("active");
     }
-  });
+  }
 });
 
 export function NavigationBar() {

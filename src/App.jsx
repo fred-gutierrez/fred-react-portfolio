@@ -14,10 +14,10 @@ import "./styles/animations.min.css";
 export function App() {
   return (
     <div className="bg-black">
-      <header className="vh-100" id="home">
-        <NavigationBar />
+      <NavigationBar />
+      <section className="vh-100" id="home">
         <Home />
-      </header>
+      </section>
       <section id="about">
         <Offerings />
         <div className="container pb-5">
