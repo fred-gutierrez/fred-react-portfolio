@@ -28,13 +28,8 @@ $bootstrap-color: #815cb8;
   color: $javascript-color;
 }
 
-.gd-text {
-  background: #0c9eff;
-  background: -webkit-linear-gradient(to right, #0c9eff 0%, #ffffff 100%);
-  background: -moz-linear-gradient(to right, #0c9eff 0%, #ffffff 100%);
-  background: linear-gradient(to right, #0c9eff 0%, #ffffff 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+#frontEndText {
+  color: #52baff;
 }
 
 /* Download Button */
@@ -155,8 +150,21 @@ body:hover .react-logo__ring--3 {
 /* !Projects Section */
 /* Projects Section */
 
+#projects {
+  min-height: 100vh;
+}
+
+#project-h2 {
+  text-shadow: 3px 3px rgb(0, 0, 0, 0.5);
+}
+
 .card-logos {
   width: 35px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 24px 0px;
+  border: none !important;
 }
 
 /* Contact Section */

@@ -11,7 +11,9 @@ export function Home() {
             Solís Gutiérrez
             <br />
           </h1>
-          <span className="fs-2 fw-bold gd-text">Front-end Developer</span>
+          <span id="frontEndText" className="fs-2 fw-bold">
+            Front-end Developer
+          </span>
           <p>
             Development of web sites and
             <br />
