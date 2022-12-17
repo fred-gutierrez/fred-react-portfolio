@@ -6,7 +6,7 @@ export default [
       "This project is based on my advertising startup, with it, I was able to improve my WordPress skills, I created this website with the base editor from WordPress and without a layout template. The main plugins I used were Greenshift and Gutenberg.",
     stack: ["images/wordpress-logo.svg"],
     link: "https://femedia.xyz/",
-    codeLink: "",
+    codeLink: false,
   },
   {
     title: "React Shopping Cart",

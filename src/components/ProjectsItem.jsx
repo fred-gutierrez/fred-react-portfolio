@@ -1,26 +1,11 @@
-let githubButton1 = document.getElementById("githubButton");
-
-function githubButton() {
-  if (codeLink === "") {
-    githubButton1.innerHTML = "";
-  } else {
-    githubButton1.innerHTML += `<a
-  id="codeBtn"
-  href=${codeLink}
-  class="btn btn-secondary ms-2"
-  target="_blank"
->
-  <i class="fa-brands fa-github" /> Code
-</a>`;
-  }
-}
+import React from "react";
 
 export function ProjectsItem({
   imgUrl,
   title,
+  codeLink,
   description,
   link,
-  codeLink,
   stack,
 }) {
   return (
@@ -47,7 +32,18 @@ export function ProjectsItem({
           <a href={link} class="btn btn-primary" target="_blank">
             <i class="fa-solid fa-arrow-up-right-from-square" /> Website
           </a>
-          <div id="githubButton1">{githubButton}</div>
+          {codeLink ? (
+            <a
+              id="codeBtn"
+              href={codeLink}
+              class="btn btn-secondary ms-2"
+              target=" _blank"
+            >
+              <i class="fa-brands fa-github" /> Code
+            </a>
+          ) : (
+            <></>
+          )}
         </div>
       </article>
     </div>
