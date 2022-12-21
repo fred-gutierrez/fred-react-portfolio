@@ -10,3 +10,5 @@ export function ArrowBelow() {
     </div>
   );
 }
+
+// TODO: Make the arrow dissapear after clicked or if it goes onto the About part
