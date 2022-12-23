@@ -4,6 +4,10 @@ $javascript-color: #f0db4f;
 $react-color: #00d8ff;
 $bootstrap-color: #815cb8;
 
+* {
+  scroll-behavior: smooth;
+}
+
 .vh-25 {
   height: 25vh;
 }
