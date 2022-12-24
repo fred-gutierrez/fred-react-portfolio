@@ -20,9 +20,10 @@ export function AboutMe() {
           developer with the projects I make along the way and the Back-end
           languages I learn.
           <br />
-          <br />I specialize on JavaScript, and I’m very invested in making code
-          as efficient as possible to further enhance productivity individually
-          and team-based.
+          <br />I specialize on{" "}
+          <span className="react-color fw-bold">React</span>, and I’m very
+          invested in making code as efficient as possible to further enhance
+          productivity individually and team-based.
         </p>
       </div>
     </div>

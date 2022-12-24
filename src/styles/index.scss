@@ -1,11 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 $javascript-color: #f0db4f;
 $react-color: #00d8ff;
 $bootstrap-color: #815cb8;
+$html-color: #ff0000;
+$sass-color: #cc6699;
+$wordpress-color: #444140;
+$github-color: #fff;
+$linkedin-color: #007bb6;
+$typescript-color: #007acc;
+
+.bootstrap-color {
+  color: $bootstrap-color;
+}
+.react-color {
+  color: $react-color;
+}
+.javascript-color {
+  color: $javascript-color;
+}
+.wordpress-color {
+  color: $wordpress-color;
+}
+.sass-color {
+  color: $sass-color;
+}
+.html-color {
+  color: $html-color;
+}
+.typescript-color {
+  color: $typescript-color;
+}
 
 body {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 .vh-25 {
@@ -18,18 +47,6 @@ body {
 
 .vh-75 {
   height: 75vh;
-}
-
-.bootstrap-color {
-  color: $bootstrap-color;
-}
-
-.react-color {
-  color: $react-color;
-}
-
-.javascript-color {
-  color: $javascript-color;
 }
 
 #frontEndText {
@@ -57,7 +74,7 @@ body {
   display: grid;
   border: 0px none;
   grid-template-columns: 53px auto;
-  gap: 20px;
+  gap: 18px;
 }
 
 #resume-downloadtext {
@@ -248,9 +265,9 @@ form textarea {
 
 .fa-linkedin,
 .fa-linkedin-square {
-  color: #007bb6;
+  color: $linkedin-color;
 }
 
 .fa-github {
-  color: #fff;
+  color: $github-color;
 }
