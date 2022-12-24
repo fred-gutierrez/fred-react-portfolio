@@ -13,7 +13,7 @@ export default [
     imgUrl: "images/ecommerce-website-preview.png",
     description: `This is a working project that I will keep updating
     from time to time to make it a fully working e-commerce page based on React.
-    This project helped me fully understand React props, components, and how to use TypeScript rather than regular JavaScript`,
+    This project helped me fully understand React props, components, and how to use TypeScript rather than regular JavaScript.`,
     stack: [
       "images/react-icon.png",
       "images/bootstrap-logo.svg",
