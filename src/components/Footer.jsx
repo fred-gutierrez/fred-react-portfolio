@@ -1,3 +1,7 @@
+import BootstrapLogo from "/images/skills/bootstrap-logo.svg";
+import ReactLogo from "/images/skills/react-icon.png";
+import SassLogo from "/images/skills/sass-logo.webp";
+
 export function Footer() {
   return (
     <footer className="pt-5 bg-black">
@@ -31,23 +35,12 @@ export function Footer() {
             </a>
           </div>
           <p class="col-12 text-center pb-4 pt-4 fs-6 text-muted">
-            Built with{" "}
-            <img
-              src="images/skills/react-icon.png"
-              width="40px"
-              alt="React Logo"
-            />
-            ,{" "}
-            <img
-              src="images/skills/sass-logo.webp"
-              alt="Sass Logo"
-              width="40px"
-            />{" "}
-            and{" "}
+            Built with <img src={ReactLogo} width="40px" alt="React Logo" />,{" "}
+            <img src={SassLogo} alt="Sass Logo" width="40px" /> and{" "}
             <img
               src="images/skills/bootstrap-logo.svg"
               width="40px"
-              alt="Bootstrap Logo"
+              alt={BootstrapLogo}
             />{" "}
             <span className="bootstrap-color">5</span> by{" "}
             <a>Fred David Solís Gutiérrez</a> | 2022

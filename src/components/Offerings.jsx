@@ -1,3 +1,5 @@
+import GoogleLighthouseLogo from "/images/google-lighthouse.svg";
+
 export function Offerings() {
   return (
     <div>
@@ -29,7 +31,7 @@ export function Offerings() {
               Quick load times accompanied with smooth interactivity. I use{" "}
               <img
                 width={20}
-                src="/images/google-lighthouse.svg"
+                src={GoogleLighthouseLogo}
                 alt="Google Lighthouse Logo"
               />{" "}
               Google Lighthouse to ensure this.

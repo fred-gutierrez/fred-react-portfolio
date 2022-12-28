@@ -1,3 +1,12 @@
+import SassLogo from "/images/skills/sass-logo.webp";
+import TypeScriptLogo from "/images/skills/typescript.svg";
+import BootstrapLogo from "/images/skills/bootstrap-logo.svg";
+import ViteLogo from "/images/skills/vitejs.svg";
+import TailwindLogo from "/images/skills/tailwind-logo.webp";
+import WordPressLogo from "/images/skills/Wordpress-Logo.svg";
+import GreenSockLogo from "/images/skills/gsap-greensock.svg";
+import GatsbyLogo from "/images/skills/gatsby-js-icon.svg";
+
 export function Skills() {
   return (
     <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-white">
@@ -5,12 +14,7 @@ export function Skills() {
       <div class="row mt-5">
         <div class="col-6 col-lg-4">
           <div class="d-flex justify-content-center">
-            <img
-              width="90px"
-              height="90px"
-              src="images/skills/sass-logo.webp"
-              alt="Sass Logo"
-            />
+            <img width="90px" height="90px" src={SassLogo} alt="Sass Logo" />
           </div>
           <p class="text-white text-center mt-1">Sass</p>
         </div>
@@ -53,7 +57,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/skills/typescript.svg"
+              src={TypeScriptLogo}
               alt="TypeScript logo"
               class="typescript"
             />
@@ -66,7 +70,7 @@ export function Skills() {
             <img
               width="113px"
               height="90px"
-              src="images/skills/bootstrap-logo.svg"
+              src={BootstrapLogo}
               alt="Bootstrap logo"
               class="bootstrap-img"
             />
@@ -79,7 +83,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/skills/vitejs.svg"
+              src={ViteLogo}
               alt="Vite logo"
               class="vite-img"
             />
@@ -92,7 +96,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/skills/tailwind-logo.webp"
+              src={TailwindLogo}
               alt="Tailwind logo"
               class="tailwind-img"
             />
@@ -105,7 +109,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/skills/Wordpress-Logo.svg"
+              src={WordPressLogo}
               alt="WordPress logo"
               class="wordpress-img"
             />
@@ -118,7 +122,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/skills/gsap-greensock.svg"
+              src={GreenSockLogo}
               alt="GreenSock logo"
               class="greensock-img"
             />
@@ -131,7 +135,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/skills/gatsby-js-icon.svg"
+              src={GatsbyLogo}
               alt="Gatsby logo"
               class="gatsby-img"
             />
