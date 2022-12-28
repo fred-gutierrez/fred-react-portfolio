@@ -26,9 +26,9 @@ window.addEventListener("scroll", function () {
 export function NavigationBar() {
   return (
     <nav className="navbar fixed-top navbar-expand-sm navbar-dark px-4">
-      <a className="navbar-brand">
+      <span className="navbar-brand">
         <i id="terminal-icon" className="fa-solid fa-terminal text-white"></i>
-      </a>
+      </span>
       <button
         className="navbar-toggler border-0 fs-2"
         type="button"
