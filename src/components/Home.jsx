@@ -4,7 +4,11 @@ export function Home() {
   return (
     <div class="container">
       <div class="row">
-        <div class="text-white text-center" style={{ margin: "25vh 0 0 0" }}>
+        <div
+          id="home-text-container"
+          class="text-white"
+          style={{ margin: "25vh 0 0 0" }}
+        >
           <h1 className="fs-1 fw-bold m-0">
             Fred David
             <br />

@@ -51,6 +51,12 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  #home-text-container {
+    text-align: center !important;
+  }
+  #downloadbutton-link {
+    margin: 0 auto;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */

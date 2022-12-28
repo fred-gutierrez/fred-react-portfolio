@@ -6,7 +6,7 @@ export function Offerings() {
       </h2>
       <div id="icon-container" class="container">
         <div class="row mb-5" id="icon-section1">
-          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <div id="intuitive-icon" class="d-flex justify-content-center">
               <div class="circle1">
                 <i class="fa-solid fa-eye fa-2x mt-3 blink-1"></i>
@@ -18,7 +18,7 @@ export function Offerings() {
             </p>
           </div>
 
-          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <div id="fast-icon" class="d-flex justify-content-center">
               <div class="circle1">
                 <i class="fa-solid fa-gauge-high fa-2x mt-3 shake-horizontal"></i>
@@ -31,7 +31,7 @@ export function Offerings() {
             </p>
           </div>
 
-          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <div id="dynamic-icon" class="d-flex justify-content-center">
               <div class="circle1">
                 <i class="fa-solid fa-rocket fa-2x mt-3 vibrate-1"></i>
@@ -44,7 +44,7 @@ export function Offerings() {
             </p>
           </div>
 
-          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <div id="responsive-icon" class="d-flex justify-content-center">
               <div class="circle1">
                 <i class="fa-solid fa-laptop-code fa-2x mt-3 heartbeat"></i>
