@@ -33,12 +33,7 @@ export function ProjectsItem({
             <i class="fa-solid fa-arrow-up-right-from-square" /> Website
           </a>
           {codeLink ? (
-            <a
-              id="codeBtn"
-              href={codeLink}
-              class="btn btn-secondary ms-2"
-              target=" _blank"
-            >
+            <a href={codeLink} class="btn btn-secondary ms-2" target=" _blank">
               <i class="fa-brands fa-github" /> Code
             </a>
           ) : (
