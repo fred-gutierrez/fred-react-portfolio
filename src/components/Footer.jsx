@@ -32,10 +32,20 @@ export function Footer() {
           </div>
           <p class="col-12 text-center pb-4 pt-4 fs-6 text-muted">
             Built with{" "}
-            <img src="images/react-icon.png" width="40px" alt="React Logo" />,{" "}
-            <img src="images/sass-logo.webp" alt="Sass Logo" width="40px" /> and{" "}
             <img
-              src="images/bootstrap-logo.svg"
+              src="images/skills/react-icon.png"
+              width="40px"
+              alt="React Logo"
+            />
+            ,{" "}
+            <img
+              src="images/skills/sass-logo.webp"
+              alt="Sass Logo"
+              width="40px"
+            />{" "}
+            and{" "}
+            <img
+              src="images/skills/bootstrap-logo.svg"
               width="40px"
               alt="Bootstrap Logo"
             />{" "}

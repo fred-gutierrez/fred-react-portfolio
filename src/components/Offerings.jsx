@@ -26,7 +26,12 @@ export function Offerings() {
             </div>
             <h3 class="fw-bold text-center text-white mt-1">Fast</h3>
             <p class="text-center text-white mb-5 aboutTextParagraph">
-              Quick load times accompanied with smooth interactivity. I use
+              Quick load times accompanied with smooth interactivity. I use{" "}
+              <img
+                width={20}
+                src="/images/google-lighthouse.svg"
+                alt="Google Lighthouse Logo"
+              />{" "}
               Google Lighthouse to ensure this.
             </p>
           </div>

@@ -8,7 +8,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/sass-logo.webp"
+              src="images/skills/sass-logo.webp"
               alt="Sass Logo"
             />
           </div>
@@ -53,7 +53,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/typescript.svg"
+              src="images/skills/typescript.svg"
               alt="TypeScript logo"
               class="typescript"
             />
@@ -66,7 +66,7 @@ export function Skills() {
             <img
               width="113px"
               height="90px"
-              src="images/bootstrap-logo.svg"
+              src="images/skills/bootstrap-logo.svg"
               alt="Bootstrap logo"
               class="bootstrap-img"
             />
@@ -79,7 +79,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/vitejs.svg"
+              src="images/skills/vitejs.svg"
               alt="Vite logo"
               class="vite-img"
             />
@@ -92,7 +92,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/tailwind-logo.webp"
+              src="images/skills/tailwind-logo.webp"
               alt="Tailwind logo"
               class="tailwind-img"
             />
@@ -105,7 +105,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/Wordpress-Logo.svg"
+              src="images/skills/Wordpress-Logo.svg"
               alt="WordPress logo"
               class="wordpress-img"
             />
@@ -118,7 +118,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/gsap-greensock.svg"
+              src="images/skills/gsap-greensock.svg"
               alt="GreenSock logo"
               class="greensock-img"
             />
@@ -131,7 +131,7 @@ export function Skills() {
             <img
               width="90px"
               height="90px"
-              src="images/gatsby-js-icon.svg"
+              src="images/skills/gatsby-js-icon.svg"
               alt="Gatsby logo"
               class="gatsby-img"
             />
