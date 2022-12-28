@@ -43,7 +43,10 @@ export function Footer() {
               alt={BootstrapLogo}
             />{" "}
             <span className="bootstrap-color">5</span> by{" "}
-            <a>Fred David Solís Gutiérrez</a> | 2022
+            <a className="text-decoration-none text-muted" href="#home">
+              Fred David Solís Gutiérrez
+            </a>{" "}
+            | 2022
           </p>
         </div>
       </div>
