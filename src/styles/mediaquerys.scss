@@ -30,8 +30,8 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .navbar {
-    background-color: rgb(0, 0, 0, 0.5) !important;
+  .navbar-background {
+    background-color: rgb(0, 0, 0, 0.7) !important;
   }
   .navbar-collapse,
   .ms-auto {
