@@ -3,7 +3,7 @@ import TypeScriptLogo from "/images/skills/typescript.svg";
 import BootstrapLogo from "/images/skills/bootstrap-logo.svg";
 import ViteLogo from "/images/skills/vitejs.svg";
 import TailwindLogo from "/images/skills/tailwind-logo.webp";
-import WordPressLogo from "/images/skills/Wordpress-Logo.svg";
+import WordPressLogo from "/images/skills/wordpress-logo.svg";
 import GreenSockLogo from "/images/skills/gsap-greensock.svg";
 import GatsbyLogo from "/images/skills/gatsby-js-icon.svg";
 
