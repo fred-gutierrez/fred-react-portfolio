@@ -1,6 +1,14 @@
 import { useEffect } from "react";
 
 export function ArrowBelow() {
+  window.addEventListener("scroll", function () {
+    const arrowDown = document.getElementsByClassName("fa-arrow-down");
+
+    for (let i = 0; i < arrowDown.length; i++) {
+      arrowDown[i].classList.remove("fa-arrow-down");
+    }
+  });
+
   return (
     <div
       id="arrow-down"
@@ -13,5 +21,3 @@ export function ArrowBelow() {
     </div>
   );
 }
-
-// TODO: Make the arrow dissapear after clicked or if it goes onto the About part
