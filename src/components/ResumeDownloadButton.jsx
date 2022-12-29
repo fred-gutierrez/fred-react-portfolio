@@ -3,7 +3,7 @@ export function ResumeDownloadButton() {
     <div className="container text-center">
       <a
         id="downloadbutton-link"
-        href="https://drive.google.com/uc?export=download&id=12fdE4c37nSLkMlq7QrVsTuCypHysl7Sj"
+        href="https://drive.google.com/uc?export=download&id=12lHQotdnjxjXK9MBWjtnccwx3l60Bwyi"
         target="_blank"
         className="text-decoration-none"
       >

@@ -2,11 +2,11 @@ import { ResumeDownloadButton } from "./ResumeDownloadButton";
 
 export function Home() {
   return (
-    <div class="container">
-      <div class="row">
+    <div className="container">
+      <div className="row">
         <div
           id="home-text-container"
-          class="text-white"
+          className="text-white"
           style={{ margin: "25vh 0 0 0" }}
         >
           <h1 className="fs-1 fw-bold m-0">
@@ -22,12 +22,13 @@ export function Home() {
             Development of web sites and
             <br />
             applications with{" "}
-            <i class="fa-brands fa-bootstrap bootstrap-color"></i>
-            <span class="bootstrap-color fw-bold"> Bootstrap</span>,<br />
-            <i class="fa-brands fa-react react-color"></i>
-            <span class="react-color fw-bold"> React</span>,{" "}
-            <i class="fa-brands fa-js javascript-color"></i>
-            <span class="javascript-color fw-bold"> JavaScript</span> and more!
+            <i className="fa-brands fa-bootstrap bootstrap-color"></i>
+            <span className="bootstrap-color fw-bold"> Bootstrap</span>,<br />
+            <i className="fa-brands fa-react react-color"></i>
+            <span className="react-color fw-bold"> React</span>,{" "}
+            <i className="fa-brands fa-js javascript-color"></i>
+            <span className="javascript-color fw-bold"> JavaScript</span> and
+            more!
           </p>
         </div>
       </div>
