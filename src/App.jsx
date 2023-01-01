@@ -29,11 +29,9 @@ export function App() {
           </div>
         </div>
       </section>
-      <div>
-        <section className="color-change-5x" id="projects">
-          <Projects />
-        </section>
-      </div>
+      <section className="color-change-5x" id="projects">
+        <Projects />
+      </section>
       <section className="vh-100" id="contact">
         <Contact />
         <Footer />
