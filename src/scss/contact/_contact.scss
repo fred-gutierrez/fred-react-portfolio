@@ -1,0 +1,77 @@
+@use "../home/home";
+
+.contact-section {
+  padding-top: 25vh;
+}
+
+#contact-form {
+  input {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 0;
+    color: white;
+  }
+  textarea {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 0;
+    color: white;
+  }
+}
+
+form input,
+form textarea {
+  margin: 5px 0;
+}
+
+#submit {
+  padding: 8px 16px;
+  border: solid #fff;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+#submit:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #fff;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-linkedin,
+.fa-linkedin-square {
+  color: home.$linkedin-color;
+}
+
+.fa-github {
+  color: home.$github-color;
+}

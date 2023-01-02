@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+$javascript-color: #f0db4f;
+$react-color: #00d8ff;
+$bootstrap-color: #815cb8;
+$html-color: #ff0000;
+$sass-color: #cc6699;
+$wordpress-color: #444140;
+$github-color: #fff;
+$linkedin-color: #007bb6;
+$typescript-color: #007acc;
+
+.bootstrap-color {
+  color: $bootstrap-color;
+}
+.react-color {
+  color: $react-color;
+}
+.javascript-color {
+  color: $javascript-color;
+}
+.wordpress-color {
+  color: $wordpress-color;
+}
+.sass-color {
+  color: $sass-color;
+}
+.html-color {
+  color: $html-color;
+}
+.typescript-color {
+  color: $typescript-color;
+}
+
+body {
+  scroll-behavior: smooth !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.vh-25 {
+  height: 25vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.BgAnimation_svg {
+  opacity: 75%;
+  z-index: -1;
+  position: absolute;
+  top: 8%;
+  right: 10%;
+  width: 800px;
+}
+
+#frontEndText {
+  background-image: linear-gradient(60deg, #e21143, #ffb03a);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* Download Button */
+
+#downloadbutton-link {
+  display: block;
+  width: 280px;
+}
+
+#downloadbutton-wrapper {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(rgb(255, 255, 255) 0%, rgb(217, 223, 255) 100%) repeat
+    scroll 0% 0%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px,
+    rgba(23, 0, 102, 0.2) 0px 20px 40px,
+    rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
+  border-radius: 20px;
+  height: 75px;
+  padding: 12px;
+  display: grid;
+  border: 0px none;
+  grid-template-columns: 53px auto;
+  gap: 18px;
+}
+
+#resume-downloadtext {
+  font-size: 13px;
+}
+
+#iconcv {
+  line-height: 1.5;
+}

@@ -7,9 +7,7 @@ import { NavigationBar } from "./components/NavigationBar";
 import { Offerings } from "./components/About/Offerings";
 import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/About/Skills";
-import "./styles/index.min.css";
-import "./styles/mediaquerys.min.css";
-import "./styles/animations.min.css";
+import "./css/main.css";
 
 export function App() {
   return (
