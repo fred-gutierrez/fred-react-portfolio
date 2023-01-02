@@ -1,7 +1,13 @@
-/* X-Small devices (portrait phones, less than 576px) */
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -14,44 +20,39 @@
   }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
 }
 
 /* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .navbar-background {
-    background-color: rgb(0, 0, 0, 0.7) !important;
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .BgAnimation_svg {
+    right: 0;
+    width: 700px;
   }
-  .navbar-collapse,
-  .ms-auto {
-    height: 100vh;
-    font-size: 40px;
-    text-align: right !important;
-    margin-top: 10%;
-    font-weight: bold !important;
-  }
-  .skills-text {
-    margin-top: 6vh;
-  }
-  .aboutTextParagraph {
-    padding: 0 10% 0 10%;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .BgAnimation_svg {
+    width: 650px !important;
   }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  #home-text-container {
+  .BgAnimation_svg {
+    width: 100% !important;
+    top: 10%;
+    opacity: 100% !important;
+  }
+  #home-container {
     text-align: center !important;
   }
   #downloadbutton-link {
@@ -59,14 +60,29 @@
   }
 }
 
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-}
-
-/* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-background {
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+  .navbar-collapse,
+  .ms-auto {
+    height: 100vh;
+    font-size: 40px;
+    text-align: right;
+    margin-top: 10%;
+    font-weight: bold;
+  }
+  .skills-text {
+    margin-top: 6vh;
+  }
+  .aboutTextParagraph {
+    padding: 0 10% 0 10%;
+  }
+  .BgAnimation_svg {
+    width: 100%;
+    top: 10%;
+    right: 0;
+    opacity: 100%;
+  }
 }

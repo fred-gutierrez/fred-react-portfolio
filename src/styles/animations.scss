@@ -637,50 +637,6 @@
 // AAAAAAA //
 // AAAAAAA //
 
-.color-change-5x {
-  -webkit-animation: color-change-5x 8s linear infinite alternate both;
-  animation: color-change-5x 8s linear infinite alternate both;
-}
-
-@-webkit-keyframes color-change-5x {
-  0% {
-    background: rgb(26, 220, 234, 0.6);
-  }
-  25% {
-    background: rgb(178, 44, 255, 0.6);
-  }
-  50% {
-    background: rgb(234, 34, 34, 0.6);
-  }
-  75% {
-    background: rgb(245, 190, 16, 0.6);
-  }
-  100% {
-    background: rgb(59, 216, 13, 0.6);
-  }
-}
-@keyframes color-change-5x {
-  0% {
-    background: rgb(25, 220, 234, 0.6);
-  }
-  25% {
-    background: rgb(178, 44, 255, 0.6);
-  }
-  50% {
-    background: rgb(234, 34, 34, 0.6);
-  }
-  75% {
-    background: rgb(245, 190, 16, 0.6);
-  }
-  100% {
-    background: rgb(59, 216, 13, 0.6);
-  }
-}
-
-// AAAAAAA //
-// AAAAAAA //
-// AAAAAAA //
-
 .heartbeat1 {
   -webkit-animation: heartbeat 2s ease-in-out 1s infinite both;
   animation: heartbeat 2s ease-in-out 1s infinite both;

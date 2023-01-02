@@ -10,7 +10,6 @@ import { Skills } from "./components/Skills";
 import "./styles/index.min.css";
 import "./styles/mediaquerys.min.css";
 import "./styles/animations.min.css";
-import { ArrowBelow } from "./components/ArrowBelow";
 
 export function App() {
   return (
@@ -18,7 +17,6 @@ export function App() {
       <NavigationBar />
       <section className="vh-100 text-focus-in2" id="home">
         <Home />
-        <ArrowBelow />
       </section>
       <section id="about">
         <Offerings />
