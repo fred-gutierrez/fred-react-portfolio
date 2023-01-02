@@ -37,3 +37,5 @@ export function App() {
     </div>
   );
 }
+
+// TODO: Fix the navbar active scroll not being positioned correctly
