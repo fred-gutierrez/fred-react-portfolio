@@ -1,4 +1,4 @@
-import portfolio from "../data/portfolio";
+import portfolio from "../../data/portfolio";
 import { ProjectsItem } from "./ProjectsItem";
 
 export function Projects() {
