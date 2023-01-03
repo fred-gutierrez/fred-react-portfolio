@@ -7,7 +7,7 @@ import { NavigationBar } from "./components/NavigationBar";
 import { Offerings } from "./components/About/Offerings";
 import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/About/Skills";
-import "./css/main.css";
+import "./css/postcss/main.css";
 
 export function App() {
   return (
