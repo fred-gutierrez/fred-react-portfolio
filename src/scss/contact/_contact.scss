@@ -1,4 +1,4 @@
-@use "../home/home";
+@use "../base/colorpalette";
 
 .contact-section {
   padding-top: 25vh;
@@ -69,9 +69,9 @@ form textarea {
 
 .fa-linkedin,
 .fa-linkedin-square {
-  color: home.$linkedin-color;
+  color: colorpalette.$linkedin-color;
 }
 
 .fa-github {
-  color: home.$github-color;
+  color: colorpalette.$github-color;
 }

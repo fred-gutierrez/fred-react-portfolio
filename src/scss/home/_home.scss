@@ -1,37 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
-$javascript-color: #f0db4f;
-$react-color: #00d8ff;
-$bootstrap-color: #815cb8;
-$html-color: #ff0000;
-$sass-color: #cc6699;
-$wordpress-color: #444140;
-$github-color: #fff;
-$linkedin-color: #007bb6;
-$typescript-color: #007acc;
-
-.bootstrap-color {
-  color: $bootstrap-color;
-}
-.react-color {
-  color: $react-color;
-}
-.javascript-color {
-  color: $javascript-color;
-}
-.wordpress-color {
-  color: $wordpress-color;
-}
-.sass-color {
-  color: $sass-color;
-}
-.html-color {
-  color: $html-color;
-}
-.typescript-color {
-  color: $typescript-color;
-}
-
 body {
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif !important;
@@ -94,3 +62,28 @@ body {
 #iconcv {
   line-height: 1.5;
 }
+
+// .hidden {
+//   opacity: 0;
+//   filter: blur(5px);
+//   transform: translateX(-100%);
+//   transition: all 1s;
+// }
+
+// .show {
+//   opacity: 1;
+//   filter: blur(0);
+//   transform: translateX(0);
+// }
+
+// .circle1:nth-child(2) {
+//   transition-delay: 200ms;
+// }
+
+// .circle1:nth-child(3) {
+//   transition-delay: 200ms;
+// }
+
+// .circle1:nth-child(4) {
+//   transition-delay: 200ms;
+// }

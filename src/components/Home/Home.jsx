@@ -3,6 +3,19 @@ import { BackgroundAnimation } from "./BackgroundAnimation";
 import { ResumeDownloadButton } from "./ResumeDownloadButton";
 
 export function Home() {
+  // const observer = new IntersectionObserver((entries) => {
+  //   entries.forEach((entry) => {
+  //     if (entry.isIntersecting) {
+  //       entry.target.classList.add("show");
+  //     }
+  //   });
+  // });
+
+  // const hiddenElements = document.querySelectorAll(".hidden");
+  // hiddenElements.forEach((el) => observer.observe(el));
+
+  // TODO: Solve the anitmations issue with: https://youtu.be/T33NN_pPeNI?t=40
+
   return (
     <div id="home-container" className="container">
       <div className="row">

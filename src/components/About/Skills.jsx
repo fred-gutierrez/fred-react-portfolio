@@ -10,7 +10,7 @@ import PostCSSLogo from "/images/skills/postcss-logo.png";
 
 export function Skills() {
   return (
-    <div className="col-12 col-sm-6 col-md-6 col-lg-6 text-white">
+    <div className="col-12 col-md-6 col-lg-6 text-white">
       <h2 className="skills-text fw-bold text-center">Skills</h2>
       <div className="row mt-5">
         <div className="col-6 col-lg-4">

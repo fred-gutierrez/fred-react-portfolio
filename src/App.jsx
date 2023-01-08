@@ -16,7 +16,8 @@ export function App() {
       <section className="vh-100 text-focus-in2" id="home">
         <Home />
       </section>
-      <section id="about">
+      <div className="spacer white-black-wave"></div>
+      <section className="hidden" id="about">
         <Offerings />
         <div className="container pb-5">
           <div className="row pb-5">
@@ -25,10 +26,13 @@ export function App() {
           </div>
         </div>
       </section>
-      <section className="color-change-5x" id="projects">
+      <div className="spacer orange-red-wave"></div>
+      <section className="hidden" id="projects">
         <Projects />
       </section>
-      <section className="vh-100" id="contact">
+      <div className="spacer orange-red-down-wave"></div>
+      <div className="spacer layer2"></div>
+      <section className="vh-100 hidden" id="contact">
         <Contact />
         <Footer />
       </section>

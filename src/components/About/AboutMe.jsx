@@ -1,6 +1,6 @@
 export function AboutMe() {
   return (
-    <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-white text-center">
+    <div class="col-12 col-md-6 col-lg-6 text-center">
       <h2 className="fw-bold text-center mb-4">About me</h2>
       <div className="text-center p-4 rounded-5" id="paragraph2">
         <img
@@ -20,10 +20,9 @@ export function AboutMe() {
           developer with the projects I make along the way and the Back-end
           languages I learn.
           <br />
-          <br />I specialize on{" "}
-          <span className="react-color fw-bold">React</span>, and I’m very
-          invested in making code as efficient as possible to further enhance
-          productivity individually and team-based.
+          <br />I specialize on <span className="react-color">React</span>, and
+          I’m very invested in making code as efficient as possible to further
+          enhance productivity individually and team-based.
         </p>
       </div>
     </div>

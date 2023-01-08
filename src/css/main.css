@@ -1,32 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
-.bootstrap-color {
-  color: #815cb8;
-}
-
-.react-color {
-  color: #00d8ff;
-}
-
-.javascript-color {
-  color: #f0db4f;
-}
-
-.wordpress-color {
-  color: #444140;
-}
-
-.sass-color {
-  color: #cc6699;
-}
-
-.html-color {
-  color: #ff0000;
-}
-
-.typescript-color {
-  color: #007acc;
-}
-
 body {
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif !important;
@@ -85,9 +57,44 @@ body {
   line-height: 1.5;
 }
 
-/* About Section */
-/* About Section */
-/* About Section */
+.bootstrap-color {
+  color: #815cb8;
+}
+
+.react-color {
+  color: #00d8ff;
+}
+
+.javascript-color {
+  color: #f0db4f;
+}
+
+.wordpress-color {
+  color: #444140;
+}
+
+.sass-color {
+  color: #cc6699;
+}
+
+.html-color {
+  color: #ff0000;
+}
+
+.typescript-color {
+  color: #007acc;
+}
+
+#about {
+  background-color: #f2f2f2;
+}
+#about h2,
+#about h1,
+#about h3,
+#about p {
+  color: #000 !important;
+}
+
 .circle1 {
   text-align: center;
   width: 70px;
@@ -101,10 +108,12 @@ body {
 
 #paragraph2 {
   border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(0, 0, 0, 0.25) none repeat scroll 0% 0%;
-  box-shadow: rgba(255, 255, 255, 0.37) 0px 8px 10px 0px;
+  background: rgba(163, 163, 163, 0.25) none repeat scroll 0% 0%;
+  box-shadow: rgba(105, 105, 105, 0.37) 0px 8px 10px 0px;
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
+  max-width: 440px;
+  margin: 0 auto;
 }
 
 #fred-photo {
@@ -168,6 +177,7 @@ body:hover .react-logo__ring--3 {
 
 #projects {
   min-height: 100vh;
+  background-color: #fa5d52;
 }
 
 .card-logos {
@@ -810,6 +820,9 @@ form textarea {
   #downloadbutton-link {
     margin: 0 auto;
   }
+  .skills-text {
+    margin-top: 6vh;
+  }
 }
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -824,9 +837,6 @@ form textarea {
     margin-top: 10%;
     font-weight: bold;
   }
-  .skills-text {
-    margin-top: 6vh;
-  }
   .aboutTextParagraph {
     padding: 0 10% 0 10%;
   }
@@ -836,4 +846,26 @@ form textarea {
     right: 0;
     opacity: 100%;
   }
+}
+.spacer {
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.white-black-wave {
+  background-image: url("/images/waves/white-black-wave.svg");
+  background-color: #f2f2f2;
+}
+
+.orange-red-wave {
+  background-image: url("/images/waves/orange-red-wave.svg");
+  background-color: #f2f2f2;
+}
+
+.orange-red-down-wave {
+  background-image: url("/images/waves/orange-red-down-wave.svg");
+  background-color: #000;
 }/*# sourceMappingURL=main.css.map */

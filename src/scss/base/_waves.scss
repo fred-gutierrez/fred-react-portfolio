@@ -1,0 +1,24 @@
+@use "../base/colorpalette";
+
+.spacer {
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.white-black-wave {
+  background-image: url("/images/waves/white-black-wave.svg");
+  background-color: colorpalette.$silver;
+}
+
+.orange-red-wave {
+  background-image: url("/images/waves/orange-red-wave.svg");
+  background-color: colorpalette.$silver;
+}
+
+.orange-red-down-wave {
+  background-image: url("/images/waves/orange-red-down-wave.svg");
+  background-color: #000;
+}
