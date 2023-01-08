@@ -1,11 +1,18 @@
 import React from "react";
+import { useBlink } from "../hooks/useBlink";
 
 export function NavigationBar() {
-  var blinkSpeed = 900; // every 1000 == 1 second, adjust to suit
-  var t = setInterval(function () {
-    var ele = document.getElementById("terminal-icon");
-    ele.style.visibility = ele.style.visibility == "hidden" ? "" : "hidden";
-  }, blinkSpeed);
+  function terminalBlink() {
+    const isVisible = useBlink(900);
+
+    return (
+      <i
+        style={{ visibility: isVisible ? "visible" : "hidden" }}
+        id="terminal-icon"
+        className="fa-solid fa-terminal text-white"
+      ></i>
+    );
+  }
 
   window.addEventListener("scroll", function () {
     var elements = document.querySelectorAll("nav ul li a");
@@ -31,9 +38,7 @@ export function NavigationBar() {
   }
   return (
     <nav className="navbar fixed-top navbar-expand-sm navbar-dark px-4">
-      <span className="navbar-brand">
-        <i id="terminal-icon" className="fa-solid fa-terminal text-white"></i>
-      </span>
+      <span className="navbar-brand">{terminalBlink()}</span>
       <button
         onClick={toggleBackground}
         className="navbar-toggler border-0 fs-2"

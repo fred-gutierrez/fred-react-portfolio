@@ -1,8 +1,16 @@
 import { ArrowBelow } from "./ArrowBelow";
 import { BackgroundAnimation } from "./BackgroundAnimation";
 import { ResumeDownloadButton } from "./ResumeDownloadButton";
+import { useBlink } from "../../hooks/useBlink";
 
 export function Home() {
+  function underlineBlink() {
+    const isVisible = useBlink(1200);
+
+    return (
+      <span style={{ visibility: isVisible ? "visible" : "hidden" }}>_</span>
+    );
+  }
   // const observer = new IntersectionObserver((entries) => {
   //   entries.forEach((entry) => {
   //     if (entry.isIntersecting) {
@@ -27,7 +35,7 @@ export function Home() {
             <br />
           </h1>
           <span id="frontEndText" className="fs-2 fw-bold">
-            Front-end Developer
+            Front-end Developer{underlineBlink()}
           </span>
           <p>
             Development of web sites and
