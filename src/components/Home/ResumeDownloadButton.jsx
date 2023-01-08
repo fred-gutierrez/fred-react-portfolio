@@ -1,13 +1,13 @@
 export function ResumeDownloadButton() {
   return (
-    <div className="container text-center">
+    <div className="container text-center hidden">
       <a
         id="downloadbutton-link"
         href="https://drive.google.com/uc?export=download&id=12lHQotdnjxjXK9MBWjtnccwx3l60Bwyi"
         target="_blank"
         className="text-decoration-none"
       >
-        <div id="downloadbutton-wrapper" class="slide-bottom">
+        <div id="downloadbutton-wrapper" className="slide-bottom">
           <div id="downloadbutton-iconwrapper">
             <i id="iconcv" class="fa-regular fa-file-pdf fa-2x"></i>
             <i id="downloadbutton-ring"></i>

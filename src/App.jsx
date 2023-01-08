@@ -17,7 +17,7 @@ export function App() {
         <Home />
       </section>
       <div className="spacer white-black-wave"></div>
-      <section className="hidden" id="about">
+      <section id="about">
         <Offerings />
         <div className="container pb-5">
           <div className="row pb-5">
@@ -27,12 +27,12 @@ export function App() {
         </div>
       </section>
       <div className="spacer orange-red-wave"></div>
-      <section className="hidden" id="projects">
+      <section id="projects">
         <Projects />
       </section>
       <div className="spacer orange-red-down-wave"></div>
       <div className="spacer layer2"></div>
-      <section className="vh-100 hidden" id="contact">
+      <section className="vh-100" id="contact">
         <Contact />
         <Footer />
       </section>

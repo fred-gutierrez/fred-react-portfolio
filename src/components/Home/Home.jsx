@@ -11,18 +11,17 @@ export function Home() {
       <span style={{ visibility: isVisible ? "visible" : "hidden" }}>_</span>
     );
   }
-  // const observer = new IntersectionObserver((entries) => {
-  //   entries.forEach((entry) => {
-  //     if (entry.isIntersecting) {
-  //       entry.target.classList.add("show");
-  //     }
-  //   });
-  // });
 
-  // const hiddenElements = document.querySelectorAll(".hidden");
-  // hiddenElements.forEach((el) => observer.observe(el));
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  });
 
-  // TODO: Solve the anitmations issue with: https://youtu.be/T33NN_pPeNI?t=40
+  const hiddenElements = document.querySelectorAll(".hidden");
+  hiddenElements.forEach((el) => observer.observe(el));
 
   return (
     <div id="home-container" className="container">
