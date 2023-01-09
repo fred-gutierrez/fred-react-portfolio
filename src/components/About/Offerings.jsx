@@ -3,7 +3,10 @@ import GoogleLighthouseLogo from "/images/google-lighthouse.svg";
 export function Offerings() {
   return (
     <div>
-      <h2 className="text-center text-white fw-bold text-uppercase pt-5 mb-5">
+      <h2
+        id="h2-about"
+        className="text-center text-white fw-bold text-uppercase pt-5 mb-5"
+      >
         About
       </h2>
       <div id="icon-container" className="container">

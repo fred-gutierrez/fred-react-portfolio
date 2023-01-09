@@ -4,7 +4,7 @@ import { ProjectsItem } from "./ProjectsItem";
 export function Projects() {
   return (
     <div>
-      <h2 id="project-h2" class="fw-bold text-center pt-5 text-white">
+      <h2 id="h2-projects" class="fw-bold text-center pt-5 text-white">
         Projects
       </h2>
       <div class="container mt-5">
