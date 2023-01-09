@@ -123,11 +123,6 @@ body {
   color: #000 !important;
 }
 
-#h2-about {
-  -webkit-text-decoration: underline solid 5px;
-          text-decoration: underline solid 5px;
-}
-
 .circle1 {
   text-align: center;
   width: 70px;
@@ -223,11 +218,6 @@ body:hover .react-logo__ring--3 {
 #projects {
   min-height: 100vh;
   background-color: #fa5d52;
-}
-
-#h2-projects {
-  -webkit-text-decoration: underline wavy 5px;
-          text-decoration: underline wavy 5px;
 }
 
 .card-logos {
