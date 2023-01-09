@@ -289,6 +289,28 @@ form textarea {
   color: #fff;
 }
 
+.slide-top {
+  transform: translateY(0px);
+  transition: 0.5s ease;
+}
+
+.slide-top:hover {
+  transform: translateY(-5px);
+  transition: 0.5s ease;
+}
+.slide-top:hover .fa-instagram {
+  text-shadow: 0 0 10px #515bd4;
+  transition: 0.5s ease;
+}
+.slide-top:hover .fa-github {
+  text-shadow: 0 0 10px #ffffff;
+  transition: 0.5s ease;
+}
+.slide-top:hover .fa-linkedin {
+  text-shadow: 0 0 10px #0e76a8;
+  transition: 0.5s ease;
+}
+
 .text-focus-in {
   -webkit-animation: text-focus-in 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -539,36 +561,6 @@ form textarea {
   }
   75% {
     transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
-.slide-top:hover {
-  -webkit-animation: slide-top 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 0.6s ease cubic-bezier(0.25, 0.46, 0.45, 0.94) both ease-in-out;
-}
-.slide-top:hover .fa-instagram {
-  text-shadow: 0 0 10px #515bd4;
-}
-.slide-top:hover .fa-github {
-  text-shadow: 0 0 10px #ffffff;
-}
-.slide-top:hover .fa-linkedin {
-  text-shadow: 0 0 10px #0e76a8;
-}
-
-@-webkit-keyframes slide-top {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-6px);
-  }
-}
-@keyframes slide-top {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-6px);
   }
 }
 .heartbeat:hover {

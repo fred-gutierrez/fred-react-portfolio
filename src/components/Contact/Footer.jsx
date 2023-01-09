@@ -18,7 +18,7 @@ export function Footer() {
             </a>
             <a
               href="https://github.com/fred-gutierrez"
-              class="slide-top mx-3"
+              class="slide-top mx-4"
               target="_blank"
             >
               <i class="fa-brands fa-github fa-3x"></i>
