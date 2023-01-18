@@ -31,7 +31,6 @@ export function App() {
         <Projects />
       </section>
       <div className="spacer orange-red-down-wave"></div>
-      <div className="spacer layer2"></div>
       <section className="vh-100" id="contact">
         <Contact />
         <Footer />
