@@ -8,10 +8,6 @@ import greenSockLogo from "/images/skills/gsap-greensock.svg";
 import gatsbyLogo from "/images/skills/gatsby-js-icon.svg";
 import postCSSLogo from "/images/skills/postcss-logo.png";
 
-function JavaScript() {
-  return <span className="javascript-color">JavaScript</span>;
-}
-
 export default [
   {
     title: "Fé Media Website",
@@ -27,7 +23,7 @@ export default [
     imgUrl: "images/ecommerce-website-preview.png",
     description: `This is a working project that I will keep updating from
     time to time to make it a fully working e-commerce page based on React. This project
-    helped me fully understand React props, components, and how to use TypeScript rather than regular ${JavaScript()}.`,
+    helped me fully understand React props, components, and how to use TypeScript rather than regular JavaScript.`,
     stack: [reactLogo, bootstrapLogo, typeScriptLogo],
     link: "https://fred-ecommerce-website.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/ecommerce-website",
