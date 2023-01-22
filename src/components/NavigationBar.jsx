@@ -37,7 +37,7 @@ export function NavigationBar() {
     }
   }
   return (
-    <nav className="navbar fixed-top navbar-expand-sm navbar-dark px-4">
+    <nav className="navbar fixed-top navbar-expand-md navbar-dark px-4">
       <span className="navbar-brand">{terminalBlink()}</span>
       <button
         onClick={toggleBackground}

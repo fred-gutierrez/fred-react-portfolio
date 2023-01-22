@@ -20,8 +20,8 @@ body {
 .BgAnimation_svg {
   z-index: -1;
   position: absolute;
-  top: 8%;
-  right: 10%;
+  top: 5%;
+  right: 0;
   width: 800px;
 }
 
@@ -61,33 +61,4 @@ body {
 
 #iconcv {
   line-height: 1.5;
-}
-
-.slide-bottom {
-  transform: translateY(0px);
-  transition: 0.5s ease;
-}
-
-.slide-bottom:hover {
-  transform: translateY(5px);
-  transition: 0.5s ease;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .hidden {
-    transition: all 1s;
-  }
-}
-
-.hidden {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100%);
-  transition: all 0.8s;
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
 }

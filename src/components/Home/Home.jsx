@@ -1,4 +1,3 @@
-import { ArrowBelow } from "./ArrowBelow";
 import { BackgroundAnimation } from "./BackgroundAnimation";
 import { ResumeDownloadButton } from "./ResumeDownloadButton";
 import { useBlink } from "../../hooks/useBlink";
@@ -24,7 +23,7 @@ export function Home() {
   hiddenElements.forEach((el) => observer.observe(el));
 
   return (
-    <div id="home-container" className="container">
+    <div id="home-container" className="container show">
       <div className="row">
         <div className="text-white" style={{ margin: "25vh 0 0 0" }}>
           <h1 className="fs-1 fw-bold m-0">
@@ -51,7 +50,6 @@ export function Home() {
         </div>
       </div>
       <ResumeDownloadButton />
-      <ArrowBelow />
       <BackgroundAnimation />
     </div>
   );

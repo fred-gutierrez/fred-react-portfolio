@@ -8,13 +8,15 @@ import { Offerings } from "./components/About/Offerings";
 import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/About/Skills";
 import "./styles/postcss/main.css";
+import { ArrowBelow } from "./components/Home/ArrowBelow";
 
 export function App() {
   return (
     <div className="bg-black">
       <NavigationBar />
-      <section className="vh-100 text-focus-in2" id="home">
+      <section className="vh-100" id="home">
         <Home />
+        <ArrowBelow />
       </section>
       <div className="spacer white-black-wave"></div>
       <section id="about">

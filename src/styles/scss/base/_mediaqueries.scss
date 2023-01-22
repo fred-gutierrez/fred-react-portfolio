@@ -61,10 +61,6 @@
   .skills-text {
     margin-top: 6vh;
   }
-}
-
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
   .navbar-background {
     background-color: rgb(0, 0, 0, 0.7);
   }
@@ -76,6 +72,10 @@
     margin-top: 10%;
     font-weight: bold;
   }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
   .aboutTextParagraph {
     padding: 0 10% 0 10%;
   }

@@ -89,15 +89,3 @@ body:hover .react-logo__ring--2,
 body:hover .react-logo__ring--3 {
   transform: rotateZ(0deg);
 }
-
-.offerings:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-.offerings:nth-child(3) {
-  transition-delay: 400ms;
-}
-
-.offerings:nth-child(4) {
-  transition-delay: 600ms;
-}
