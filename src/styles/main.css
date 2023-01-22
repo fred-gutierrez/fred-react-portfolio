@@ -19,7 +19,7 @@ body {
 .BgAnimation_svg {
   z-index: -1;
   position: absolute;
-  top: 5%;
+  top: 6%;
   right: 0;
   width: 800px;
 }
@@ -336,13 +336,14 @@ form textarea {
 @media (max-width: 1199.98px) {
   .BgAnimation_svg {
     right: 0;
-    width: 700px;
+    width: 750px;
   }
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .BgAnimation_svg {
-    width: 650px !important;
+    width: 700px;
+    top: 10%;
   }
 }
 /* Small devices (landscape phones, less than 768px) */

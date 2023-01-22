@@ -34,14 +34,15 @@
 @media (max-width: 1199.98px) {
   .BgAnimation_svg {
     right: 0;
-    width: 700px;
+    width: 750px;
   }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .BgAnimation_svg {
-    width: 650px !important;
+    width: 700px;
+    top: 10%;
   }
 }
 
