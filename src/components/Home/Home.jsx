@@ -1,7 +1,6 @@
 import { BackgroundAnimation } from "./BackgroundAnimation";
 import { ResumeDownloadButton } from "./ResumeDownloadButton";
 import { useBlink } from "../../hooks/useBlink";
-import { GitHub, LinkedIn } from "../Contact/Footer";
 
 export function Home() {
   function underlineBlink() {
@@ -49,10 +48,6 @@ export function Home() {
             more!
           </p>
           <ResumeDownloadButton />
-          <div className="d-flex justify-content-center justify-content-md-start mt-3">
-            <GitHub className="slide-bottom mx-2" />
-            <LinkedIn className="slide-bottom mx-2" />
-          </div>
         </div>
       </div>
       <BackgroundAnimation />
