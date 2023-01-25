@@ -264,7 +264,7 @@ form textarea {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
-  transition: all 0.8s;
+  transition: 0.8s;
 }
 
 .show {
@@ -280,6 +280,14 @@ form textarea {
 
 .slide-bottom:hover {
   transform: translateY(5px);
+  transition: 0.5s ease;
+}
+.slide-bottom:hover .fa-github {
+  text-shadow: 0 0 10px #ffffff;
+  transition: 0.5s ease;
+}
+.slide-bottom:hover .fa-linkedin {
+  text-shadow: 0 0 10px #0e76a8;
   transition: 0.5s ease;
 }
 

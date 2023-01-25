@@ -8,7 +8,7 @@
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
-  transition: all 0.8s;
+  transition: 0.8s;
 }
 
 .show {
@@ -25,6 +25,14 @@
 .slide-bottom:hover {
   transform: translateY(5px);
   transition: 0.5s ease;
+  .fa-github {
+    text-shadow: 0 0 10px #ffffff;
+    transition: 0.5s ease;
+  }
+  .fa-linkedin {
+    text-shadow: 0 0 10px #0e76a8;
+    transition: 0.5s ease;
+  }
 }
 
 .offerings:nth-child(2) {

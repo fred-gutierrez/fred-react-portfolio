@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import portfolio from "../../data/portfolio";
 import { ProjectsItem } from "./ProjectsItem";
 
@@ -9,6 +10,7 @@ export function Projects() {
         <div class="row">
           {portfolio.map((portfolio) => (
             <ProjectsItem
+              key={nanoid()}
               imgUrl={portfolio.imgUrl}
               title={portfolio.title}
               description={portfolio.description}

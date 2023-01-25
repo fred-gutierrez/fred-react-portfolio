@@ -14,7 +14,7 @@ export function NavigationBar() {
     );
   }
 
-  window.addEventListener("scroll", function () {
+  window.addEventListener("scroll", () => {
     var elements = document.querySelectorAll("nav ul li a");
     var sections = document.querySelectorAll("section");
 
@@ -30,12 +30,16 @@ export function NavigationBar() {
       }
     }
   });
+
   function toggleBackground() {
     const navbarContainer = document.getElementsByClassName("navbar");
     for (var i = 0; i < navbarContainer.length; i++) {
       navbarContainer[i].classList.toggle("navbar-background");
     }
   }
+
+  //TODO: When a white background is detected or the "About" section is on screen, change the nav item color to #000
+
   return (
     <nav className="navbar fixed-top navbar-expand-md navbar-dark px-4">
       <span className="navbar-brand">{terminalBlink()}</span>
