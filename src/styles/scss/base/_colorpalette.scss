@@ -17,6 +17,7 @@ $wordpress-color: #444140;
 $github-color: #fff;
 $linkedin-color: #007bb6;
 $typescript-color: #007acc;
+$css-color: #2965f1;
 
 .bootstrap-color {
   color: $bootstrap-color;
@@ -38,4 +39,7 @@ $typescript-color: #007acc;
 }
 .typescript-color {
   color: $typescript-color;
+}
+.css-color {
+  color: $css-color;
 }
