@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "theme_color": "#000",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -39,5 +40,5 @@
     "url": "https://github.com/fred-gutierrez/React-Portfolio/issues"
   },
   "homepage": "https://github.com/fred-gutierrez/React-Portfolio#readme",
-  "description": ""
+  "description": "Fred David Solis Gutierrez Portfolio in which his coding and programming projects will be displayed"
 }
