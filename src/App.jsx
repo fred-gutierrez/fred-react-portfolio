@@ -12,38 +12,36 @@ import { ArrowBelow } from "./components/Home/ArrowBelow";
 
 export function App() {
   return (
-    <div className="bg-black">
+    <div
+      className="bg-black"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar"
+      data-bs-offset="0"
+      tabindex="0"
+    >
       <NavigationBar />
-      <section>
-        <div className="vh-100" id="home">
-          <Home />
-          <ArrowBelow />
-        </div>
+      <section className="vh-100" id="home">
+        <Home />
+        <ArrowBelow />
       </section>
-      <section>
-        <div className="spacer white-black-wave"></div>
-        <div id="about">
-          <Offerings />
-          <div className="container pb-5">
-            <div className="row pb-5">
-              <AboutMe />
-              <Skills />
-            </div>
+      <div className="spacer white-black-wave"></div>
+      <section id="about">
+        <Offerings />
+        <div className="container pb-5">
+          <div className="row pb-5">
+            <AboutMe />
+            <Skills />
           </div>
         </div>
       </section>
-      <section>
-        <div className="spacer orange-red-wave"></div>
-        <div id="projects">
-          <Projects />
-        </div>
+      <div className="spacer orange-red-wave"></div>
+      <section id="projects">
+        <Projects />
       </section>
-      <section>
-        <div className="spacer orange-red-down-wave"></div>
-        <div className="vh-100" id="contact">
-          <Contact />
-          <Footer />
-        </div>
+      <div className="spacer orange-red-down-wave"></div>
+      <section className="vh-100" id="contact">
+        <Contact />
+        <Footer />
       </section>
     </div>
   );
