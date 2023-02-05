@@ -1,16 +1,25 @@
 // ------------------ <IMAGES> ------------------ //
 
-import sassLogo from "/images/skills/sass-logo.webp";
-import typeScriptLogo from "/images/skills/typescript.svg";
-import bootstrapLogo from "/images/skills/bootstrap-logo.svg";
-import wordPressLogo from "/images/skills/wordpress-logo.svg";
-import reactLogo from "/images/skills/react-icon.png";
-import tailwindLogo from "/images/skills/tailwind-logo.webp";
-import greenSockLogo from "/images/skills/gsap-greensock.svg";
-import gatsbyLogo from "/images/skills/gatsby-js-icon.svg";
-import postCSSLogo from "/images/skills/postcss-logo.png";
+import sassLogo from "/src/images/skills/sass-logo.webp";
+import typeScriptLogo from "/src/images/skills/typescript.svg";
+import bootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
+import wordPressLogo from "/src/images/skills/wordpress-logo.svg";
+import reactLogo from "/src/images/skills/react-icon.png";
+import tailwindLogo from "/src/images/skills/tailwind-logo.webp";
+import greenSockLogo from "/src/images/skills/gsap-greensock.svg";
+import gatsbyLogo from "/src/images/skills/gatsby-js-icon.svg";
+import postCSSLogo from "/src/images/skills/postcss-logo.png";
 
 // ------------------ </IMAGES> ------------------ //
+
+// ------------------ <PREVIEWS> ------------------ //
+
+import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
+import feMediaPreview from "/src/images/projects/femediapreview.png";
+import tenziesGamePreview from "/src/images/projects/tenziesgamepreview.png";
+import oldPortfolioPreview from "/src/images/projects/oldportfoliopreview.png";
+
+// ------------------ </PREVIEWS> ------------------ //
 
 const React = <span className="react-color fw-bold">React</span>;
 const WordPress = <span className="wordpress-color fw-bold">WordPress</span>;
@@ -24,7 +33,7 @@ const Bootstrap = <span className="bootstrap-color fw-bold">Bootstrap 4</span>;
 export default [
   {
     title: "Fé Media Website",
-    imgUrl: "images/projects/femediapreview.png",
+    imgUrl: feMediaPreview,
     description: (
       <div>
         This project is based on my advertising startup, with it, I was able to
@@ -39,7 +48,7 @@ export default [
   },
   {
     title: "React Shopping Cart",
-    imgUrl: "images/projects/ecommerce-website-preview.png",
+    imgUrl: ecommercePreview,
     description: (
       <div>
         This is a working project that I will keep updating from time to time to
@@ -54,7 +63,7 @@ export default [
   },
   {
     title: "Tenzies Game",
-    imgUrl: "images/projects/tenziesgamepreview.png",
+    imgUrl: tenziesGamePreview,
     description: (
       <div>
         This is the final Capstone Project for{" "}
@@ -75,7 +84,7 @@ export default [
   },
   {
     title: "Old Portfolio Website",
-    imgUrl: "images/projects/oldportfoliopreview.png",
+    imgUrl: oldPortfolioPreview,
     description: (
       <div>
         This was my first considerable project that allowed me to comprehend and

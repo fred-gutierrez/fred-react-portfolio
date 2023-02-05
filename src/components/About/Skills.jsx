@@ -1,12 +1,12 @@
-import SassLogo from "/images/skills/sass-logo.webp";
-import TypeScriptLogo from "/images/skills/typescript.svg";
-import BootstrapLogo from "/images/skills/bootstrap-logo.svg";
-import ViteLogo from "/images/skills/vitejs.svg";
-import TailwindLogo from "/images/skills/tailwind-logo.webp";
-import WordPressLogo from "/images/skills/wordpress-logo.svg";
-import GreenSockLogo from "/images/skills/gsap-greensock.svg";
-import GatsbyLogo from "/images/skills/gatsby-js-icon.svg";
-import PostCSSLogo from "/images/skills/postcss-logo.png";
+import SassLogo from "/src/images/skills/sass-logo.webp";
+import TypeScriptLogo from "/src/images/skills/typescript.svg";
+import BootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
+import ViteLogo from "/src/images/skills/vitejs.svg";
+import TailwindLogo from "/src/images/skills/tailwind-logo.webp";
+import WordPressLogo from "/src/images/skills/wordpress-logo.svg";
+import GreenSockLogo from "/src/images/skills/gsap-greensock.svg";
+import GatsbyLogo from "/src/images/skills/gatsby-js-icon.svg";
+import PostCSSLogo from "/src/images/skills/postcss-logo.png";
 
 export function Skills() {
   return (

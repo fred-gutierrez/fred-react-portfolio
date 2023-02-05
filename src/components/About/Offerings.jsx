@@ -1,4 +1,4 @@
-import GoogleLighthouseLogo from "/images/google-lighthouse.svg";
+import GoogleLighthouseLogo from "/src/images/google-lighthouse.svg";
 
 export function Offerings() {
   return (

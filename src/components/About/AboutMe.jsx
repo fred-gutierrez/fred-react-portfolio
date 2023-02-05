@@ -1,3 +1,5 @@
+import FredPhoto from "/src/images/fred-image2.webp";
+
 export function AboutMe() {
   return (
     <div class="col-12 col-md-6 col-lg-6 text-center">
@@ -8,7 +10,7 @@ export function AboutMe() {
           width="200px"
           height="200px"
           id="fred-photo"
-          src="images/fred-image2.webp"
+          src={FredPhoto}
           alt="Fred's Photo"
         />
         <p>

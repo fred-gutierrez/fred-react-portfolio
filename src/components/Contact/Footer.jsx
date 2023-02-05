@@ -1,6 +1,6 @@
-import BootstrapLogo from "/images/skills/bootstrap-logo.svg";
-import ReactLogo from "/images/skills/react-icon.png";
-import SassLogo from "/images/skills/sass-logo.webp";
+import BootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
+import ReactLogo from "/src/images/skills/react-icon.png";
+import SassLogo from "/src/images/skills/sass-logo.webp";
 
 export function Footer() {
   return (
@@ -36,11 +36,7 @@ export function Footer() {
           <p className="col-12 text-center pb-4 pt-4 fs-6 text-muted">
             Built with <img src={ReactLogo} width="40px" alt="React Logo" />,{" "}
             <img src={SassLogo} alt="Sass Logo" width="40px" /> and{" "}
-            <img
-              src="images/skills/bootstrap-logo.svg"
-              width="40px"
-              alt={BootstrapLogo}
-            />{" "}
+            <img src={BootstrapLogo} width="40px" alt="Bootstrap Logo" />{" "}
             <span className="bootstrap-color">5</span> by{" "}
             <a className="text-decoration-none text-muted" href="#home">
               Fred David Solís Gutiérrez
