@@ -370,7 +370,7 @@ form textarea {
     background-color: rgba(0, 0, 0, 0.7);
   }
   .navbar-collapse,
-.ms-auto {
+  .ms-auto {
     height: 100vh;
     font-size: 40px;
     text-align: right;

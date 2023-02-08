@@ -75,29 +75,12 @@ export default [
           Learn React for free
         </a>{" "}
         that teached me a lot about {React}, everything from props, state,
-        making API calls, useEffects, {React} forms, and more!
+        making API calls, useEffects, {React} forms, conditional rendering, and
+        more!
       </div>
     ),
     stack: [reactLogo, sassLogo],
     link: "https://fredtenziesgame.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/tenzies-game",
-  },
-  {
-    title: "Old Portfolio Website",
-    imgUrl: oldPortfolioPreview,
-    description: (
-      <div>
-        This was my first considerable project that allowed me to comprehend and
-        sharpen my skills in {CSS}, {Sass}, {HTML}, and {Bootstrap}. The design
-        for this page is mostly the same but the reasoning behind doing a new
-        portfolio page was due to the chaos I did with the code back then, which
-        lead to performance, maintainability, and re-usability issues. Therefore
-        this portfolio is made with {React} props, components, and more.
-      </div>
-    ),
-    stack: [sassLogo, bootstrapLogo],
-    link: "https://fredwilliams.netlify.app/",
-    codeLink:
-      "https://github.com/fred-gutierrez/Fred-David-Solis-Gutierrez-Portfolio",
   },
 ];
