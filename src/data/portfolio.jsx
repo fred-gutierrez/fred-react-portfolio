@@ -17,7 +17,6 @@ import postCSSLogo from "/src/images/skills/postcss-logo.png";
 import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
 import feMediaPreview from "/src/images/projects/femediapreview.png";
 import tenziesGamePreview from "/src/images/projects/tenziesgamepreview.png";
-import oldPortfolioPreview from "/src/images/projects/oldportfoliopreview.png";
 
 // ------------------ </PREVIEWS> ------------------ //
 
