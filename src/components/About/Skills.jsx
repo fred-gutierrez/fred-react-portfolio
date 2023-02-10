@@ -141,3 +141,5 @@ export function Skills() {
     </div>
   );
 }
+
+// TODO: Make a data JSX element that holds all the data and images from this skills element - And then create a new element to (skillsItem.jsx) to add class names and so, and on this section map over the data.

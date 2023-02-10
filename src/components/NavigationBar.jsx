@@ -68,3 +68,21 @@ export function NavigationBar() {
     </nav>
   );
 }
+
+// TODO: See if possible to add react-routes and have Scrollspy work (Bootstrap)
+
+// window.addEventListener("scroll", function () {
+//   var elements = document.querySelectorAll("nav ul li a");
+//   var sections = document.querySelectorAll("section");
+
+//   for (var i = 0; i < sections.length; i++) {
+//     var section = sections[i];
+//     if (
+//       window.scrollY >= section.offsetTop &&
+//       window.scrollY < section.offsetTop + section.offsetHeight
+//     ) {
+//       elements[i].classList.add("active");
+//     } else {
+//       elements[i].classList.remove("active");
+//     }
+//   }

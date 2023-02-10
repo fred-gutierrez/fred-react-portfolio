@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import portfolio from "../../data/portfolio";
+import projectsData from "../../data/projectsData";
 import { ProjectsItem } from "./ProjectsItem";
 
 export function Projects() {
@@ -8,15 +8,15 @@ export function Projects() {
       <h2 class="fw-bold text-center pt-5 text-white">Projects</h2>
       <div class="container mt-5">
         <div class="row">
-          {portfolio.map((portfolio) => (
+          {projectsData.map((props) => (
             <ProjectsItem
               key={nanoid()}
-              imgUrl={portfolio.imgUrl}
-              title={portfolio.title}
-              description={portfolio.description}
-              stack={portfolio.stack}
-              link={portfolio.link}
-              codeLink={portfolio.codeLink}
+              imgUrl={props.imgUrl}
+              title={props.title}
+              description={props.description}
+              stack={props.stack}
+              link={props.link}
+              codeLink={props.codeLink}
             />
           ))}
         </div>

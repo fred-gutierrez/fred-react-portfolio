@@ -83,3 +83,5 @@ export default [
     codeLink: "https://github.com/fred-gutierrez/tenzies-game",
   },
 ];
+
+//TODO: Add tool icons (FontAwesome, Heroicons, Vite, etc)

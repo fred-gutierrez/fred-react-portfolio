@@ -46,3 +46,5 @@ export function App() {
     </div>
   );
 }
+
+//TODO: Add a page specifically to showcase the skills/tools and their associated documentation (Vite, Heroicons, Fontawesome, etc)
