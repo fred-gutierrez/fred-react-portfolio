@@ -23,7 +23,7 @@ export function ProjectsItem(props) {
             {props.stack.map((item) => (
               <img
                 key={nanoid()}
-                className="card-logos mt-2 mb-2 mx-1"
+                className="card-logos my-2 mx-1"
                 src={item}
                 alt="Skill Logo"
               />

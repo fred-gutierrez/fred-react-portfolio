@@ -7,7 +7,6 @@ import { NavigationBar } from "./components/NavigationBar";
 import { Offerings } from "./components/About/Offerings";
 import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/About/Skills";
-import "./styles/postcss/main.css";
 import { ArrowBelow } from "./components/Home/ArrowBelow";
 
 export function App() {
@@ -46,5 +45,3 @@ export function App() {
     </div>
   );
 }
-
-//TODO: Add a page specifically to showcase the skills/tools and their associated documentation (Vite, Heroicons, Fontawesome, etc)

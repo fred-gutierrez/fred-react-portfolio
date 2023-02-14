@@ -25,13 +25,14 @@ export function Home() {
   return (
     <div id="home-container" className="container show">
       <div className="row">
+        {" "}
         <div className="text-white" style={{ margin: "25vh 0 0 0" }}>
-          <h1 className="fs-1 fw-bold m-0">
+          {" "}
+          <p className="fs-1 fw-bold m-0 lh-sm">
             Fred David
             <br />
-            Solís Gutiérrez
-            <br />
-          </h1>
+            Solís Gutiérrez <br />
+          </p>
           <span id="frontEndText" className="fs-2 fw-bold">
             Front-end Developer{underlineBlink()}
           </span>
@@ -45,7 +46,7 @@ export function Home() {
             <span className="react-color fw-bold"> React</span>,{" "}
             <i className="fa-brands fa-js javascript-color"></i>
             <span className="javascript-color fw-bold"> JavaScript</span> and
-            more!
+            more!{" "}
           </p>
           <ResumeDownloadButton />
         </div>
