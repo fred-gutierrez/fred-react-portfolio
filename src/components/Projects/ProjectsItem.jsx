@@ -20,11 +20,11 @@ export function ProjectsItem(props) {
           <h5 className="card-title fw-bold">{props.title}</h5>
           <p className="card-text m-0">{props.description}</p>
           <div>
-            {props.stack.map((item) => (
+            {props.stack.map((skillsImg) => (
               <img
                 key={nanoid()}
                 className="card-logos my-2 mx-1"
-                src={item}
+                src={skillsImg}
                 alt="Skill Logo"
               />
             ))}
