@@ -6,6 +6,7 @@ import WordPressLogo from "/src/images/skills/wordpress-logo.svg";
 import GreenSockLogo from "/src/images/skills/gsap-greensock.svg";
 import GatsbyLogo from "/src/images/skills/gatsby-js-icon.svg";
 import PostCSSLogo from "/src/images/skills/postcss-logo.png";
+import vueLogo from "/src/images/skills/vuelogo.png";
 
 const reactLogo = () => {
   return (
@@ -44,25 +45,29 @@ const reactComponent = reactLogo(null);
 
 export default [
   {
+    skillName: "React",
+    img: false,
+    svg: reactComponent,
+  },
+  {
     skillName: "Sass",
     img: SassLogo,
   },
   {
-    skillName: "React",
-    img: false,
-    svg: reactComponent,
+    skillName: "Vue",
+    img: vueLogo,
   },
   {
     skillName: "TypeScript",
     img: TypeScriptLogo,
   },
   {
-    skillName: "Bootstrap",
-    img: BootstrapLogo,
-  },
-  {
     skillName: "PostCSS",
     img: PostCSSLogo,
+  },
+  {
+    skillName: "Bootstrap",
+    img: BootstrapLogo,
   },
   {
     skillName: "Tailwind",

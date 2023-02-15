@@ -5,12 +5,7 @@ export default function SkillsItem(props) {
     <div className="col-6 col-lg-4">
       <div className="d-flex justify-content-center">
         {props.img ? (
-          <img
-            width="95px"
-            height="95px"
-            src={props.img}
-            alt={props.skillName}
-          />
+          <img height="95px" src={props.img} alt={props.skillName} />
         ) : (
           <>{props.svg}</>
         )}
