@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Nav, NavbarBrand, NavLink } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import { useBlink } from "../hooks/useBlink";
 
 export function NavigationBar() {
@@ -25,34 +25,27 @@ export function NavigationBar() {
   //TODO: When a white background is detected or the "About" section is on screen, change the nav item color to #000
 
   return (
-    <Nav
-      id="navbar"
-      className="navbar fixed-top navbar-expand-md navbar-dark px-4"
-    >
-      <NavbarBrand className="navbar-brand">{terminalBlink()}</NavbarBrand>
-      <Button
+    <Navbar id="navbar" className="fixed-top navbar-dark px-4" expand="md">
+      <Navbar.Brand>{terminalBlink()}</Navbar.Brand>
+      <Navbar.Toggle
         onClick={toggleBackground}
-        className="navbar-toggler border-0 fs-2 bg-transparent"
+        className="border-0 fs-2 bg-transparent"
         type="button"
-        data-bs-toggle="collapse"
         data-bs-target="#navbarToggler"
-        aria-controls="navbarToggler"
-        aria-expanded="false"
+        aria-controls="navbarScroll"
         aria-label="Toggle navigation"
       >
         <i className="fa-solid fa-bars-staggered text-white border-0"></i>
-      </Button>
-      <div className="collapse navbar-collapse" id="navbarToggler">
-        <ul className="navbar-nav ms-auto">
-          <NavLink aria-current="page" href="#home">
-            Home
-          </NavLink>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
-        </ul>
-      </div>
-    </Nav>
+      </Navbar.Toggle>
+      <Navbar.Collapse id="navbarScroll">
+        <Nav className="ms-auto" navbarScroll>
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
+          <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="#contact">Contact</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 

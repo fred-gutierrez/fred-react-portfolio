@@ -16,7 +16,6 @@ export function App() {
       data-bs-spy="scroll"
       data-bs-target="#navbar"
       data-bs-offset="0"
-      tabindex="0"
     >
       <NavigationBar />
       <section className="vh-100" id="home">
