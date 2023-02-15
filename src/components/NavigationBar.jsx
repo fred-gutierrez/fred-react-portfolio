@@ -1,4 +1,5 @@
 import React from "react";
+import { Button, Nav, NavbarBrand, NavLink } from "react-bootstrap";
 import { useBlink } from "../hooks/useBlink";
 
 export function NavigationBar() {
@@ -24,14 +25,14 @@ export function NavigationBar() {
   //TODO: When a white background is detected or the "About" section is on screen, change the nav item color to #000
 
   return (
-    <nav
+    <Nav
       id="navbar"
       className="navbar fixed-top navbar-expand-md navbar-dark px-4"
     >
-      <span className="navbar-brand">{terminalBlink()}</span>
-      <button
+      <NavbarBrand className="navbar-brand">{terminalBlink()}</NavbarBrand>
+      <Button
         onClick={toggleBackground}
-        className="navbar-toggler border-0 fs-2"
+        className="navbar-toggler border-0 fs-2 bg-transparent"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarToggler"
@@ -40,32 +41,18 @@ export function NavigationBar() {
         aria-label="Toggle navigation"
       >
         <i className="fa-solid fa-bars-staggered text-white border-0"></i>
-      </button>
+      </Button>
       <div className="collapse navbar-collapse" id="navbarToggler">
         <ul className="navbar-nav ms-auto">
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#home">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#about">
-              About
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#projects">
-              Projects
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#contact">
-              Contact
-            </a>
-          </li>
+          <NavLink aria-current="page" href="#home">
+            Home
+          </NavLink>
+          <NavLink href="#about">About</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </ul>
       </div>
-    </nav>
+    </Nav>
   );
 }
 
