@@ -49,6 +49,8 @@ export function NavigationBar() {
   );
 }
 
+//TODO: Fix navbar scroll not working on Safari/Mobile
+
 // window.addEventListener("scroll", function () {
 //   var elements = document.querySelectorAll("nav ul li a");
 //   var sections = document.querySelectorAll("section");
