@@ -67,3 +67,5 @@ export function Offerings() {
     </div>
   );
 }
+
+// TODO: Add GSAP to the animations
