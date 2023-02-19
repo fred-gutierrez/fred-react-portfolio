@@ -39,24 +39,25 @@
   transition-delay: 600ms;
 }
 
-.slide-top {
-  transform: translateY(0px);
+@mixin socials($hover-color) {
+  text-shadow: 0 0 10px $hover-color;
   transition: 0.5s ease;
 }
 
-.slide-top:hover {
-  transform: translateY(-5px);
+.slide-top {
+  transform: translateY(0px);
   transition: 0.5s ease;
-  .fa-instagram {
-    text-shadow: 0 0 10px #515bd4;
+  &:hover {
+    transform: translateY(-5px);
     transition: 0.5s ease;
-  }
-  .fa-github {
-    text-shadow: 0 0 10px #ffffff;
-    transition: 0.5s ease;
-  }
-  .fa-linkedin {
-    text-shadow: 0 0 10px #0e76a8;
-    transition: 0.5s ease;
+    .fa-instagram {
+      @include socials(#515bd4);
+    }
+    .fa-github {
+      @include socials(#ffffff);
+    }
+    .fa-linkedin {
+      @include socials(#0e76a8);
+    }
   }
 }

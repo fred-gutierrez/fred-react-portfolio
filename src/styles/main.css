@@ -303,7 +303,6 @@ form textarea {
   transform: translateY(0px);
   transition: 0.5s ease;
 }
-
 .slide-top:hover {
   transform: translateY(-5px);
   transition: 0.5s ease;
