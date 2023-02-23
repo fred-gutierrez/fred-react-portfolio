@@ -27,18 +27,6 @@
   transition: 0.5s ease;
 }
 
-.offerings:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-.offerings:nth-child(3) {
-  transition-delay: 400ms;
-}
-
-.offerings:nth-child(4) {
-  transition-delay: 600ms;
-}
-
 @mixin socials($hover-color) {
   text-shadow: 0 0 10px $hover-color;
   transition: 0.5s ease;

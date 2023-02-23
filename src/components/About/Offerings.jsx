@@ -8,7 +8,7 @@ export function Offerings() {
       </h2>
       <div id="icon-container" className="container">
         <div className="row mb-5" id="icon-section1">
-          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings hidden">
+          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings">
             <div id="intuitive-icon" className="d-flex justify-content-center">
               <div className="circle1">
                 <i className="fa-solid fa-eye fa-2x mt-3 blink-1"></i>
@@ -20,7 +20,7 @@ export function Offerings() {
             </p>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings hidden">
+          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings">
             <div id="fast-icon" className="d-flex justify-content-center">
               <div className="circle1">
                 <i className="fa-solid fa-gauge-high fa-2x mt-3 shake-horizontal"></i>
@@ -38,7 +38,7 @@ export function Offerings() {
             </p>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings hidden">
+          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings">
             <div id="dynamic-icon" className="d-flex justify-content-center">
               <div className="circle1">
                 <i className="fa-solid fa-rocket fa-2x mt-3 vibrate-1"></i>
@@ -51,7 +51,7 @@ export function Offerings() {
             </p>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings hidden">
+          <div className="col-12 col-sm-6 col-md-6 col-lg-3 offerings">
             <div id="responsive-icon" className="d-flex justify-content-center">
               <div className="circle1">
                 <i className="fa-solid fa-laptop-code fa-2x mt-3 heartbeat"></i>
