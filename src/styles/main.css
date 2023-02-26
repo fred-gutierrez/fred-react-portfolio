@@ -287,18 +287,6 @@ form textarea {
   transition: 0.5s ease;
 }
 
-.offerings:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-.offerings:nth-child(3) {
-  transition-delay: 400ms;
-}
-
-.offerings:nth-child(4) {
-  transition-delay: 600ms;
-}
-
 .slide-top {
   transform: translateY(0px);
   transition: 0.5s ease;
