@@ -40,8 +40,8 @@ export function NavigationBar() {
       }
     }
   });
-
   //TODO: When a white background is detected or the "About" section is on screen, change the nav item color to #000
+
 
   return (
     <Navbar id="navbar" className="fixed-top navbar-dark px-4" expand="md">
