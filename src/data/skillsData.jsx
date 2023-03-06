@@ -7,6 +7,7 @@ import GreenSockLogo from "/src/images/skills/gsap-greensock.svg";
 import GatsbyLogo from "/src/images/skills/gatsby-js-icon.svg";
 import PostCSSLogo from "/src/images/skills/postcss-logo.png";
 import vueLogo from "/src/images/skills/vuelogo.png";
+import nodejs from "/src/images/skills/nodejs.png";
 
 const reactLogo = () => {
   return (
@@ -84,5 +85,9 @@ export default [
   {
     skillName: "Gatsby",
     img: GatsbyLogo,
+  },
+  {
+    skillName: "Node.js",
+    img: nodejs,
   },
 ];

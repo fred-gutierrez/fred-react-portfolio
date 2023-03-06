@@ -18,6 +18,7 @@ $github-color: #fff;
 $linkedin-color: #007bb6;
 $typescript-color: #007acc;
 $css-color: #2965f1;
+$nodejs-color: #68a063;
 
 .bootstrap-color {
   color: $bootstrap-color;
@@ -42,4 +43,8 @@ $css-color: #2965f1;
 }
 .css-color {
   color: $css-color;
+}
+
+.nodejs-color {
+  color: $nodejs-color;
 }
