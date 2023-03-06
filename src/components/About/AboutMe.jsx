@@ -14,17 +14,22 @@ export function AboutMe() {
           alt="Fred's Photo"
         />
         <p>
-          Hello there! I’m Fred David, Web Developer/Programmer.
+          Welcome to my portfolio website! I'm Fred David, a Front-end Developer
+          with a focus on <span className="react-color">React</span>. My
+          expertise lies in creating clean, efficient, and visually appealing
+          web designs that enhance user experience.
           <br />
           <br />
-          I’m a Front-end developer, aiming to learn as much as possible in the
-          front-end part to then long-term aim at being considered a Full-stack
-          developer with the projects I make along the way and the Back-end
-          languages I learn.
+          With a keen eye for detail and a deep understanding of the latest
+          trends in web development, I'm constantly learning and expanding my
+          skill set to become a Full-stack Developer in the long run.
           <br />
-          <br />I specialize on <span className="react-color">React</span>, and
-          I’m very invested in making code as efficient as possible to further
-          enhance productivity individually and team-based.
+          <br />
+          Take a moment to browse through my latest projects, and let's discuss
+          how we can collaborate to bring your vision to life. Whether you're
+          looking to improve your website's user experience, or want to create a
+          brand new design from scratch, I'm here to help. Let's work together
+          and create something amazing!
         </p>
       </div>
     </div>
