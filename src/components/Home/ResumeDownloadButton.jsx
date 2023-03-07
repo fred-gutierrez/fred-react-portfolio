@@ -4,7 +4,7 @@ export function ResumeDownloadButton() {
     <div className="container text-center">
       <a
         id="downloadbutton-link"
-        href="https://drive.google.com/uc?export=download&id=12lHQotdnjxjXK9MBWjtnccwx3l60Bwyi"
+        href="https://drive.google.com/uc?export=download&id=12w_IHLHKvX4LjaX6Yiqre0IxIq_Pw2UO"
         target="_blank"
         className="text-decoration-none"
       >
