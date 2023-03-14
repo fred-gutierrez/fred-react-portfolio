@@ -165,5 +165,3 @@ export default [
     codeLink: "https://github.com/fred-gutierrez/CRUD-Project",
   },
 ];
-
-// TODO: Add an alt to each skill/tool img
