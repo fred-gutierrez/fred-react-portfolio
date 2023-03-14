@@ -24,11 +24,7 @@ export function NavigationBar(props) {
     }
   }
 
-  const hideMenu = () => {
-    toggleBackground();
-  };
-
-  //TODO: When a white background is detected or the "About" section is on screen, change the nav item color to #000
+  //TODO: On > md - the navbar background should have a brighter color
 
   return (
     <Navbar id="navbar" className={`fixed-top navbar-dark px-4`} expand="md">
@@ -52,9 +48,7 @@ export function NavigationBar(props) {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link
             href="#about"
-            className={`${
-              props.isWhiteBackground ? "black-active" : "nav-link"
-            }`}
+            className={`${props.isWhiteBackground ? "black-active" : ""}`}
           >
             About
           </Nav.Link>
