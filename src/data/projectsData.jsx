@@ -30,6 +30,47 @@ const TYPESCRIPT = <span className="typescript-color fw-bold">TypeScript</span>;
 const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
 const NODEJS = <span className="nodejs-color fw-bold">NodeJS</span>;
 
+let reactImg = {
+  alt: "React",
+  img: reactLogo,
+};
+let tailwindImg = {
+  alt: "TailwindCSS",
+  img: tailwind,
+};
+let viteImg = {
+  alt: "Vite",
+  img: vite,
+};
+let typescriptImg = {
+  alt: "TypeScript",
+  img: typeScriptLogo,
+};
+let nodejsImg = {
+  alt: "NodeJS",
+  img: nodejs,
+};
+let fontAwesomeImg = {
+  alt: "FontAwesome",
+  img: fontAwesome,
+};
+let wordpressImg = {
+  alt: "WordPress",
+  img: wordPressLogo,
+};
+let bootstrapImg = {
+  alt: "Bootstrap",
+  img: bootstrapLogo,
+};
+let sassImg = {
+  alt: "Sass",
+  img: sassLogo,
+};
+let heroIconsImg = {
+  alt: "HeroIcons",
+  img: heroIcons,
+};
+
 export default [
   {
     title: "Eka Bienes Raíces",
@@ -43,7 +84,14 @@ export default [
         chosen for long-term maintainability.
       </div>
     ),
-    stack: [reactLogo, tailwind, vite, typeScriptLogo, nodejs, fontAwesome],
+    stack: [
+      reactImg,
+      tailwindImg,
+      viteImg,
+      typescriptImg,
+      nodejsImg,
+      fontAwesomeImg,
+    ],
     link: "https://ekabienesraices.netlify.app/",
     codeLink: false,
   },
@@ -58,7 +106,7 @@ export default [
         I used were Greenshift and Gutenberg.
       </div>
     ),
-    stack: [wordPressLogo],
+    stack: [wordpressImg],
     link: "https://femedia.xyz/",
     codeLink: false,
   },
@@ -73,7 +121,7 @@ export default [
         {TYPESCRIPT} rather than regular {JAVASCRIPT}.
       </div>
     ),
-    stack: [reactLogo, bootstrapLogo, typeScriptLogo, vite],
+    stack: [reactImg, bootstrapImg, typescriptImg, viteImg],
     link: "https://fred-ecommerce-website.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/ecommerce-website",
   },
@@ -95,7 +143,7 @@ export default [
         more!
       </div>
     ),
-    stack: [reactLogo, sassLogo, fontAwesome, vite],
+    stack: [reactImg, sassImg, fontAwesomeImg, viteImg],
     link: "https://fredtenziesgame.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/tenzies-game",
   },
@@ -110,7 +158,7 @@ export default [
         switcher.
       </div>
     ),
-    stack: [reactLogo, heroIcons, vite],
+    stack: [reactImg, heroIconsImg, viteImg],
     link: "https://fred-notes-app.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/CRUD-Project",
   },
