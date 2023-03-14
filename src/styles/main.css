@@ -327,6 +327,12 @@ form textarea {
 /* XX-Large devices (larger desktops, 1400px and up) */
 /* X-Large devices (large desktops, 1200px and up) */
 /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .contact-section {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .circle1 {
