@@ -1,4 +1,4 @@
-// Skills
+// * Skills
 
 import sassLogo from "/src/images/skills/sass-logo.webp";
 import typeScriptLogo from "/src/images/skills/typescript.svg";
@@ -8,13 +8,13 @@ import reactLogo from "/src/images/skills/react-icon.png";
 import tailwind from "/src/images/skills/tailwind-logo.webp";
 import nodejs from "/src/images/skills/nodejs.png";
 
-// Tools
+// * Tools
 
 import heroIcons from "/src/images/tools/heroicons.png";
 import fontAwesome from "/src/images/tools/fontawesome.png";
 import vite from "/src/images/tools/vite.png";
 
-// Previews
+// * Previews
 
 import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
 import feMediaPreview from "/src/images/projects/femediapreview.png";
@@ -22,13 +22,15 @@ import tenziesGamePreview from "/src/images/projects/tenziesgamepreview.png";
 import notesAppPreview from "/src/images/projects/notesapppreview.png";
 import ekaBienesRaicesPreview from "/src/images/projects/ekabienesraicespreview.png";
 
-// Technologies
+// * Technologies
 
 const REACT = <span className="react-color fw-bold">React</span>;
 const WORDPRESS = <span className="wordpress-color fw-bold">WordPress</span>;
 const TYPESCRIPT = <span className="typescript-color fw-bold">TypeScript</span>;
 const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
 const NODEJS = <span className="nodejs-color fw-bold">NodeJS</span>;
+
+// * Stack
 
 let reactImg = {
   alt: "React",
