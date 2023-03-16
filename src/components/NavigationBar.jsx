@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { useBlink } from "../hooks/useBlink";
 
@@ -48,7 +48,7 @@ export function NavigationBar(props) {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link
             href="#about"
-            className={`${props.isWhiteBackground ? "black-active" : ""}`}
+            className={`${props.isWhiteBackground && "black-active"}`}
           >
             About
           </Nav.Link>
