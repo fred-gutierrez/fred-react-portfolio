@@ -12,6 +12,7 @@ export function Footer() {
               href="https://www.instagram.com/fredwilliamszy/"
               className="slide-top"
               target="_blank"
+              aria-label="Instagram Link"
             >
               <i className="fa-brands fa-instagram fa-3x"></i>
               <br />
@@ -20,6 +21,7 @@ export function Footer() {
               href="https://github.com/fred-gutierrez"
               className="slide-top mx-3"
               target="_blank"
+              aria-label="Github Link"
             >
               <i className="fa-brands fa-github fa-3x"></i>
               <br />
@@ -28,6 +30,7 @@ export function Footer() {
               href="https://www.linkedin.com/in/fred-david-solis-gutierrez-b0a51b1a8"
               className="slide-top"
               target="_blank"
+              aria-label="LinkedIn Link"
             >
               <i className="fa-brands fa-linkedin fa-3x"></i>
               <br />
