@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
 
 export function ArrowBelow() {
@@ -16,10 +17,11 @@ export function ArrowBelow() {
      mb-4 px-4 arrow-below"
     >
       <a href="#about" aria-label="Arrown Down">
-        <i className="fa-solid fa-arrow-down text-white fa-2x"></i>
+        <FontAwesomeIcon
+          icon={["fas", "arrow-down"]}
+          className="text-white fa-2x"
+        />
       </a>
     </div>
   );
 }
-
-// Awa
