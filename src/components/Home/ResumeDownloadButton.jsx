@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export function ResumeDownloadButton() {
   //NaN
   return (
@@ -10,8 +12,11 @@ export function ResumeDownloadButton() {
       >
         <div id="downloadbutton-wrapper" className="slide-bottom">
           <div id="downloadbutton-iconwrapper">
-            <i id="iconcv" class="fa-regular fa-file-pdf fa-2x"></i>
-            <i id="downloadbutton-ring"></i>
+            <FontAwesomeIcon
+              icon={["far", "file-pdf"]}
+              size="2x"
+              className="mt-2"
+            />
           </div>
           <div className="text-start d-grid text-black">
             <p className="fw-bold m-0">Resume (CV)</p>

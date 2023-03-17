@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { nanoid } from "nanoid";
 import React from "react";
 
@@ -30,15 +31,16 @@ export function ProjectsItem(props) {
             ))}
           </div>
           <a href={props.link} className="btn btn-primary" target="_blank">
-            <i className="fa-solid fa-arrow-up-right-from-square" /> Website
+            <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} />{" "}
+            Website
           </a>
           {props.codeLink && (
             <a
               href={props.codeLink}
               className="btn btn-secondary ms-2"
-              target=" _blank"
+              target="_blank"
             >
-              <i className="fa-brands fa-github" /> Code
+              <FontAwesomeIcon icon={["fab", "github"]} /> Code
             </a>
           )}
         </div>

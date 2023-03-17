@@ -1,19 +1,19 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { useBlink } from "../hooks/useBlink";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function NavigationBar(props) {
   function terminalBlink() {
     const isVisible = useBlink(900);
 
     return (
-      <i
+      <FontAwesomeIcon
         style={{ visibility: isVisible ? "visible" : "hidden" }}
         id="terminal-icon"
-        className={`fa-solid fa-terminal ${
-          props.isWhiteBackground ? "black-active" : "text-white"
-        }`}
-      ></i>
+        icon={["fas", "terminal"]}
+        className={`${props.isWhiteBackground ? "black-active" : "text-white"}`}
+      />
     );
   }
 
@@ -37,11 +37,12 @@ export function NavigationBar(props) {
         aria-controls="navbarScroll"
         aria-label="Toggle navigation"
       >
-        <i
+        <FontAwesomeIcon
+          icon={["fas", "bars-staggered"]}
           className={`${
             props.isWhiteBackground ? "black-active" : "text-white"
-          } fa-solid fa-bars-staggered border-0`}
-        ></i>
+          } border-0`}
+        />
       </Navbar.Toggle>
       <Navbar.Collapse id="navbarScroll">
         <Nav className="ms-auto" navbarScroll>

@@ -53,10 +53,6 @@ body {
   font-size: 13px;
 }
 
-#iconcv {
-  line-height: 1.5;
-}
-
 .bootstrap-color {
   color: #815cb8;
 }
@@ -312,15 +308,15 @@ form textarea {
   transition: 0.5s ease;
 }
 .slide-top:hover .fa-instagram {
-  text-shadow: 0 0 10px #515bd4;
+  filter: drop-shadow(0 0 10px #515bd4);
   transition: 0.5s ease;
 }
 .slide-top:hover .fa-github {
-  text-shadow: 0 0 10px #ffffff;
+  filter: drop-shadow(0 0 10px #ffffff);
   transition: 0.5s ease;
 }
 .slide-top:hover .fa-linkedin {
-  text-shadow: 0 0 10px #0e76a8;
+  filter: drop-shadow(0 0 10px #0e76a8);
   transition: 0.5s ease;
 }
 

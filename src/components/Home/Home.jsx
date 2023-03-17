@@ -1,6 +1,7 @@
 import { BackgroundAnimation } from "./BackgroundAnimation";
 import { ResumeDownloadButton } from "./ResumeDownloadButton";
 import { useBlink } from "../../hooks/useBlink";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Home() {
   function underlineBlink() {
@@ -40,11 +41,17 @@ export function Home() {
             Development of web sites and
             <br />
             applications with{" "}
-            <i className="fa-brands fa-bootstrap bootstrap-color"></i>
+            <FontAwesomeIcon
+              icon={["fab", "bootstrap"]}
+              className="bootstrap-color"
+            />
             <span className="bootstrap-color fw-bold"> Bootstrap</span>,<br />
-            <i className="fa-brands fa-react react-color"></i>
+            <FontAwesomeIcon icon={["fab", "react"]} className="react-color" />
             <span className="react-color fw-bold"> React</span>,{" "}
-            <i className="fa-brands fa-js javascript-color"></i>
+            <FontAwesomeIcon
+              icon={["fab", "js"]}
+              className="javascript-color"
+            />
             <span className="javascript-color fw-bold"> JavaScript</span> and
             more!{" "}
           </p>

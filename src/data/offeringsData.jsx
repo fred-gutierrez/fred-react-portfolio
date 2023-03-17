@@ -2,14 +2,12 @@ import GoogleLighthouseLogo from "/src/images/tools/google-lighthouse.svg";
 
 export default [
   {
-    icon: <i className="fa-solid fa-eye fa-2x mt-3 blink-1"></i>,
+    icon: "eye",
     title: "Intuitive",
     description: `High inclination for the ease of use, intuitive UX/UI.`,
   },
   {
-    icon: (
-      <i className="fa-solid fa-gauge-high fa-2x mt-3 shake-horizontal"></i>
-    ),
+    icon: "gauge-high",
     title: "Fast",
     description: (
       <span>
@@ -26,12 +24,12 @@ export default [
     ),
   },
   {
-    icon: <i className="fa-solid fa-rocket fa-2x mt-3 vibrate-1"></i>,
+    icon: "rocket",
     title: "Dynamic",
     description: `Websites don't have to be static, I love making pages come to life.`,
   },
   {
-    icon: <i className="fa-solid fa-laptop-code fa-2x mt-3 heartbeat"></i>,
+    icon: "laptop-code",
     title: "Responsive",
     description: `Mobile-first approach, my designs will work on any device/screen.`,
   },

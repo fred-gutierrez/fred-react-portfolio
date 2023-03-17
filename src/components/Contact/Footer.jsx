@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
 import ReactLogo from "/src/images/skills/react-icon.png";
 import SassLogo from "/src/images/skills/sass-logo.webp";
@@ -6,33 +7,50 @@ export function Footer() {
   return (
     <footer className="pt-5 bg-black">
       <div className="container">
-        <div id="social-media" className="row">
-          <div className="col-12 d-flex justify-content-center">
-            <a
+        <div className="row">
+          <div className="d-flex justify-content-center">
+            {/* <a
               href="https://www.instagram.com/fredwilliamszy/"
               className="slide-top"
               target="_blank"
               aria-label="Instagram Link"
             >
-              <i className="fa-brands fa-instagram fa-3x"></i>
+              <FontAwesomeIcon
+                icon={["fab", "instagram"]}
+                className="fa-instagram"
+                size="3x"
+                style={{ fill: "url(#gradient-id)" }}
+              />
               <br />
-            </a>
+              <svg style={{ display: "none" }}>
+                <defs>
+                  <radialGradient id="gradient-id">
+                    <stop offset="0%" stopColor="#fdf497" />
+                    <stop offset="5%" stopColor="#fdf497" />
+                    <stop offset="45%" stopColor="#fd5949" />
+                    <stop offset="60%" stopColor="#d6249f" />
+                    <stop offset="90%" stopColor="#285aeb" />
+                  </radialGradient>
+                </defs>
+              </svg>
+            </a> */}
+            {/* // TODO: Fix and  apply the  colors to the svg of the Instagram icon (NOT A TEXT) ./contact.scss */}
             <a
               href="https://github.com/fred-gutierrez"
-              className="slide-top mx-3"
+              className="slide-top mx-2"
               target="_blank"
               aria-label="Github Link"
             >
-              <i className="fa-brands fa-github fa-3x"></i>
+              <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
               <br />
             </a>
             <a
               href="https://www.linkedin.com/in/fred-david-solis-gutierrez-b0a51b1a8"
-              className="slide-top"
+              className="slide-top mx-2"
               target="_blank"
               aria-label="LinkedIn Link"
             >
-              <i className="fa-brands fa-linkedin fa-3x"></i>
+              <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
               <br />
             </a>
           </div>
