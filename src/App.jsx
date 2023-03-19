@@ -7,7 +7,7 @@ import { NavigationBar } from "./components/NavigationBar";
 import { Offerings } from "./components/About/Offerings";
 import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/About/Skills";
-import { ArrowBelow } from "./components/Home/ArrowBelow";
+import { ArrowDown } from "./components/Home/ArrowDown";
 
 export function App() {
   const [isWhiteBackground, setIsWhiteBackground] = useState(false);
@@ -36,7 +36,7 @@ export function App() {
       <NavigationBar isWhiteBackground={isWhiteBackground} />
       <section className="vh-100" id="home">
         <Home />
-        <ArrowBelow />
+        <ArrowDown />
       </section>
       <div className="spacer white-black-wave"></div>
       <section id="about" ref={aboutRef}>

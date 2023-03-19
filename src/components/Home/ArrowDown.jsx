@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect } from "react";
 
-export function ArrowBelow() {
+export function ArrowDown() {
   window.addEventListener("scroll", () => {
     const arrowDown = document.getElementsByClassName("fa-arrow-down");
 
