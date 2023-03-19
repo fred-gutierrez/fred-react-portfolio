@@ -2,19 +2,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
 
 export function ArrowBelow() {
-  window.addEventListener("scroll", function () {
+  window.addEventListener("scroll", () => {
     const arrowDown = document.getElementsByClassName("fa-arrow-down");
 
     for (let i = 0; i < arrowDown.length; i++) {
-      arrowDown[i].classList.remove("fa-arrow-down");
+      arrowDown[i].classList.add("d-none");
     }
   });
 
   return (
     <div
-      id="arrow-down"
-      className="position-absolute heartbeat1 bottom-0 end-0
-     mb-4 px-4 arrow-below"
+      className="position-absolute bottom-0 end-0
+     mb-4 px-4"
     >
       <a href="#about" aria-label="Arrown Down">
         <FontAwesomeIcon
