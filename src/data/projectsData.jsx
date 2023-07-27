@@ -1,5 +1,4 @@
 // * Skills
-
 import sassLogo from "/src/images/skills/sass-logo.webp";
 import typeScriptLogo from "/src/images/skills/typescript.svg";
 import bootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
@@ -9,19 +8,16 @@ import tailwind from "/src/images/skills/tailwind-logo.webp";
 import nodejs from "/src/images/skills/nodejs.png";
 
 // * Tools
-
 import heroIcons from "/src/images/tools/heroicons.png";
 import fontAwesome from "/src/images/tools/fontawesome.png";
 import vite from "/src/images/tools/vite.png";
 
 // * Previews
-
 import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
 import feMediaPreview from "/src/images/projects/femediapreview.png";
 import ekaBienesRaicesPreview from "/src/images/projects/ekabienesraicespreview.png";
 
 // * Technologies
-
 const REACT = <span className="react-color fw-bold">React</span>;
 const WORDPRESS = <span className="wordpress-color fw-bold">WordPress</span>;
 const TYPESCRIPT = <span className="typescript-color fw-bold">TypeScript</span>;
@@ -29,7 +25,6 @@ const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
 const NODEJS = <span className="nodejs-color fw-bold">NodeJS</span>;
 
 // * Stack
-
 let reactImg = {
   alt: "React",
   img: reactLogo,
@@ -62,14 +57,14 @@ let bootstrapImg = {
   alt: "Bootstrap",
   img: bootstrapLogo,
 };
-let sassImg = {
-  alt: "Sass",
-  img: sassLogo,
-};
-let heroIconsImg = {
-  alt: "HeroIcons",
-  img: heroIcons,
-};
+// let sassImg = {
+//   alt: "Sass",
+//   img: sassLogo,
+// };
+// let heroIconsImg = {
+//   alt: "HeroIcons",
+//   img: heroIcons,
+// };
 
 export default [
   {
@@ -100,10 +95,12 @@ export default [
     imgUrl: feMediaPreview,
     description: (
       <div>
-        This project is based on my advertising startup, with it, I was able to
-        improve my {WORDPRESS} skills, I created this website with the base
-        editor from {WORDPRESS} and without a layout template. The main plugins
-        I used were Greenshift and Gutenberg.
+        Undertaken for an advertising company, this project allowed me to refine
+        my {WORDPRESS} skills. I crafted a first-rate website using {WORDPRESS}
+        's base editor, avoiding templates, and integrated key plugins,
+        Greenshift and Gutenberg, to enhance functionality and user experience.
+        This experience significantly bolstered my expertise in {WORDPRESS}{" "}
+        website development.
       </div>
     ),
     stack: [wordpressImg],
