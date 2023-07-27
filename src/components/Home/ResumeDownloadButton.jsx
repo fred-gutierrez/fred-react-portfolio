@@ -7,7 +7,7 @@ export function ResumeDownloadButton() {
       <a
         id="downloadbutton-link"
         href="https://drive.google.com/uc?export=download&id=13bLKXnpbuaAHRd6Nvww6nxMdZOmLcf35"
-        //Updated Resume 7/25
+        //Updated Resume 7/27
         target="_blank"
         className="text-decoration-none"
       >
