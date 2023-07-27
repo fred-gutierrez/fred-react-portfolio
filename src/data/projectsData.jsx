@@ -127,41 +127,4 @@ export default [
     link: "https://fred-ecommerce-website.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/ecommerce-website",
   },
-  {
-    title: "Tenzies Game",
-    imgUrl: tenziesGamePreview,
-    description: (
-      <div>
-        This is the final Capstone Project for{" "}
-        <a
-          href="https://scrimba.com/learn/learnreact"
-          className="link-secondary"
-          target="_blank"
-        >
-          Learn React for free
-        </a>{" "}
-        that teached me a lot about {REACT}, everything from props, state,
-        making API calls, useEffects, {REACT} forms, conditional rendering, and
-        more!
-      </div>
-    ),
-    stack: [reactImg, sassImg, fontAwesomeImg, viteImg],
-    link: "https://fredtenziesgame.netlify.app/",
-    codeLink: "https://github.com/fred-gutierrez/tenzies-game",
-  },
-  {
-    title: "Notes/CRUD App",
-    imgUrl: notesAppPreview,
-    description: (
-      <div>
-        This is a project I decided to do in order to practice {REACT} hooks,
-        useEffect, useState and more in order to create fully functioning CRUD
-        type apps like this notes app, and I've included a hue and light/dark
-        switcher.
-      </div>
-    ),
-    stack: [reactImg, heroIconsImg, viteImg],
-    link: "https://fred-notes-app.netlify.app/",
-    codeLink: "https://github.com/fred-gutierrez/CRUD-Project",
-  },
 ];
