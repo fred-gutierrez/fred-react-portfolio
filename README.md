@@ -16,7 +16,6 @@ The portfolio is built using the following technologies:
 - **Responsive Design**: The portfolio is fully responsive and adapts to different screen sizes, ensuring a consistent experience across devices.
 - **Project Showcase**: I have included a dedicated section to display my projects, along with descriptions and relevant links.
 - **Latest Skills**: Another section highlights the latest skills I've acquired, demonstrating my commitment to continuous learning.
-Projects
 
 ## Feedback
 I am open to any feedback, suggestions, or collaboration opportunities. If you have any questions or would like to get in touch, feel free to reach out to me via email at fredsg222@gmail.com.
