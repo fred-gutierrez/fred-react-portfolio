@@ -12,7 +12,11 @@ export function NavigationBar(props) {
         style={{ visibility: isVisible ? "visible" : "hidden" }}
         id="terminal-icon"
         icon={["fas", "terminal"]}
-        className={`${props.isWhiteBackground ? "black-active" : "text-white"}`}
+        className={`${
+          props.isWhiteBackground && props.isMenuOpened === false
+            ? "black-active"
+            : "text-white"
+        }`}
       />
     );
   }
@@ -21,10 +25,9 @@ export function NavigationBar(props) {
     const navbarContainer = document.getElementsByClassName("navbar");
     for (var i = 0; i < navbarContainer.length; i++) {
       navbarContainer[i].classList.toggle("navbar-background");
+      props.setIsMenuOpened((prevState) => !prevState);
     }
   }
-
-  //TODO: On > md - the navbar background should have a brighter color
 
   return (
     <Navbar id="navbar" className={`fixed-top navbar-dark px-4`} expand="md">
@@ -40,7 +43,9 @@ export function NavigationBar(props) {
         <FontAwesomeIcon
           icon={["fas", "bars-staggered"]}
           className={`${
-            props.isWhiteBackground ? "black-active" : "text-white"
+            props.isWhiteBackground && props.isMenuOpened === false
+              ? "black-active"
+              : "text-white"
           } border-0`}
         />
       </Navbar.Toggle>
@@ -49,7 +54,11 @@ export function NavigationBar(props) {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link
             href="#about"
-            className={`${props.isWhiteBackground && "black-active"}`}
+            className={
+              props.isWhiteBackground &&
+              props.isMenuOpened === false &&
+              "black-active"
+            }
           >
             About
           </Nav.Link>

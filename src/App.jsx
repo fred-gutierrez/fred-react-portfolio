@@ -11,6 +11,7 @@ import { ArrowDown } from "./components/Home/ArrowDown";
 
 export function App() {
   const [isWhiteBackground, setIsWhiteBackground] = useState(false);
+  const [isMenuOpened, setIsMenuOpened] = useState(false);
   const aboutRef = useRef(null);
 
   function checkBackground() {
@@ -33,7 +34,11 @@ export function App() {
       data-bs-target="#navbar"
       data-bs-offset="0"
     >
-      <NavigationBar isWhiteBackground={isWhiteBackground} />
+      <NavigationBar
+        isWhiteBackground={isWhiteBackground}
+        setIsMenuOpened={setIsMenuOpened}
+        isMenuOpened={isMenuOpened}
+      />
       <section className="vh-100" id="home">
         <Home />
         <ArrowDown />

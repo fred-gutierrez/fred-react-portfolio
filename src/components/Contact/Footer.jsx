@@ -9,32 +9,6 @@ export function Footer() {
       <div className="container">
         <div className="row">
           <div className="d-flex justify-content-center">
-            {/* <a
-              href="https://www.instagram.com/fredwilliamszy/"
-              className="slide-top"
-              target="_blank"
-              aria-label="Instagram Link"
-            >
-              <FontAwesomeIcon
-                icon={["fab", "instagram"]}
-                className="fa-instagram"
-                size="3x"
-                style={{ fill: "url(#gradient-id)" }}
-              />
-              <br />
-              <svg style={{ display: "none" }}>
-                <defs>
-                  <radialGradient id="gradient-id">
-                    <stop offset="0%" stopColor="#fdf497" />
-                    <stop offset="5%" stopColor="#fdf497" />
-                    <stop offset="45%" stopColor="#fd5949" />
-                    <stop offset="60%" stopColor="#d6249f" />
-                    <stop offset="90%" stopColor="#285aeb" />
-                  </radialGradient>
-                </defs>
-              </svg>
-            </a> */}
-            {/* // TODO: Fix and  apply the  colors to the svg of the Instagram icon (NOT A TEXT) ./contact.scss */}
             <a
               href="https://github.com/fred-gutierrez"
               className="slide-top mx-2"
