@@ -1,5 +1,5 @@
 // * Skills
-import sassLogo from "/src/images/skills/sass-logo.webp";
+// import sassLogo from "/src/images/skills/sass-logo.webp";
 import typeScriptLogo from "/src/images/skills/typescript.svg";
 import bootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
 import wordPressLogo from "/src/images/skills/wordpress-logo.svg";
@@ -8,7 +8,7 @@ import tailwind from "/src/images/skills/tailwind-logo.webp";
 import nodejs from "/src/images/skills/nodejs.png";
 
 // * Tools
-import heroIcons from "/src/images/tools/heroicons.png";
+// import heroIcons from "/src/images/tools/heroicons.png";
 import fontAwesome from "/src/images/tools/fontawesome.png";
 import vite from "/src/images/tools/vite.png";
 
@@ -45,10 +45,6 @@ let nodejsImg = {
   alt: "NodeJS",
   img: nodejs,
 };
-let fontAwesomeImg = {
-  alt: "FontAwesome",
-  img: fontAwesome,
-};
 let wordpressImg = {
   alt: "WordPress",
   img: wordPressLogo,
@@ -60,10 +56,6 @@ let bootstrapImg = {
 // let sassImg = {
 //   alt: "Sass",
 //   img: sassLogo,
-// };
-// let heroIconsImg = {
-//   alt: "HeroIcons",
-//   img: heroIcons,
 // };
 
 export default [
@@ -79,14 +71,7 @@ export default [
         chosen for long-term maintainability.
       </div>
     ),
-    stack: [
-      reactImg,
-      tailwindImg,
-      viteImg,
-      typescriptImg,
-      nodejsImg,
-      fontAwesomeImg,
-    ],
+    stack: [reactImg, tailwindImg, viteImg, typescriptImg, nodejsImg],
     link: "https://ekabienesraices.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/Eka-Facebook-API",
   },

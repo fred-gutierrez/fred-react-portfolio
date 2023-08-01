@@ -4,10 +4,12 @@ import BootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
 import TailwindLogo from "/src/images/skills/tailwind-logo.webp";
 import WordPressLogo from "/src/images/skills/wordpress-logo.svg";
 import GreenSockLogo from "/src/images/skills/gsap-greensock.svg";
-import GatsbyLogo from "/src/images/skills/gatsby-js-icon.svg";
 import PostCSSLogo from "/src/images/skills/postcss-logo.png";
 import vueLogo from "/src/images/skills/vuelogo.png";
-import nodejs from "/src/images/skills/nodejs.png";
+import nodejsLogo from "/src/images/skills/nodejs.png";
+import htmlLogo from "/src/images/skills/html-logo.png";
+import cssLogo from "/src/images/skills/css-logo.png";
+import javascriptLogo from "/src/images/skills/javascript-logo.png";
 
 const reactLogo = () => {
   return (
@@ -46,48 +48,69 @@ const reactComponent = reactLogo(null);
 
 export default [
   {
-    skillName: "React",
-    img: false,
-    svg: reactComponent,
-  },
-  {
-    skillName: "Sass",
-    img: SassLogo,
-  },
-  {
     skillName: "Vue",
     img: vueLogo,
+    yearLearned: 2023,
+  },
+  {
+    skillName: "Node.js",
+    img: nodejsLogo,
+    yearLearned: 2023,
   },
   {
     skillName: "TypeScript",
     img: TypeScriptLogo,
-  },
-  {
-    skillName: "PostCSS",
-    img: PostCSSLogo,
-  },
-  {
-    skillName: "Bootstrap",
-    img: BootstrapLogo,
+    yearLearned: 2023,
   },
   {
     skillName: "Tailwind",
     img: TailwindLogo,
+    yearLearned: 2022,
+  },
+  {
+    skillName: "PostCSS",
+    img: PostCSSLogo,
+    yearLearned: 2022,
+  },
+  {
+    skillName: "React",
+    img: false,
+    svg: reactComponent,
+    yearLearned: 2022,
+  },
+  {
+    skillName: "Sass",
+    img: SassLogo,
+    yearLearned: 2022,
   },
   {
     skillName: "WordPress",
     img: WordPressLogo,
+    yearLearned: 2022,
+  },
+  // {
+  //   skillName: "Greensock",
+  //   img: GreenSockLogo,
+  //   yearLearned: 2022,
+  // },
+  {
+    skillName: "Bootstrap",
+    img: BootstrapLogo,
+    yearLearned: 2021,
   },
   {
-    skillName: "Greensock",
-    img: GreenSockLogo,
+    skillName: "JavaScript",
+    img: javascriptLogo,
+    yearLearned: 2021,
   },
   {
-    skillName: "Gatsby",
-    img: GatsbyLogo,
+    skillName: "CSS",
+    img: cssLogo,
+    yearLearned: 2021,
   },
   {
-    skillName: "Node.js",
-    img: nodejs,
+    skillName: "HTML",
+    img: htmlLogo,
+    yearLearned: 2021,
   },
 ];

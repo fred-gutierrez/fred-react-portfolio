@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function SkillsItem(props) {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div className="col-6 col-lg-4">
       <div className="d-flex justify-content-center">
@@ -10,7 +12,21 @@ export default function SkillsItem(props) {
           <>{props.svg}</>
         )}
       </div>
-      <p className="text-white text-center mt-2">{props.skillName}</p>
+      <p
+        className="text-white text-center mt-2"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        {props.skillName}{" "}
+        <span
+          className="fst-italic text-muted"
+          style={{
+            display: isHovered ? "inline" : "none",
+          }}
+        >
+          ~ {props.yearLearned}
+        </span>
+      </p>
     </div>
   );
 }

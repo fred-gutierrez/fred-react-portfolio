@@ -13,6 +13,7 @@ export function Skills() {
             img={props.img}
             skillName={props.skillName}
             svg={props.svg}
+            yearLearned={props.yearLearned}
           />
         ))}
       </div>
