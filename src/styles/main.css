@@ -63,6 +63,7 @@ body {
 
 .javascript-color {
   color: #f0db4f;
+  text-shadow: 2px 2px 3px #000000;
 }
 
 .wordpress-color {

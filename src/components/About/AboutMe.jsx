@@ -14,9 +14,10 @@ export function AboutMe() {
           alt="Fred's Photo"
         />
         <p>
-          Welcome to my portfolio website! I'm Fred David, a Front-end Developer
-          specializing on <span className="react-color">React</span>. I excel at
-          crafting clean, efficient, and visually appealing web designs that
+          Welcome to my portfolio website! I'm Fred David, a Front-end Engineer
+          specialized on{" "}
+          <span className="javascript-color fw-bold">JavaScript</span>. I excel
+          at crafting clean, efficient, and visually appealing web designs that
           enhance user experience.
           <br />
           <br />
