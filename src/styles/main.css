@@ -63,7 +63,6 @@ body {
 
 .javascript-color {
   color: #f0db4f;
-  text-shadow: 2px 2px 2px #000000;
 }
 
 .wordpress-color {
@@ -100,6 +99,10 @@ body {
 
 .black-active {
   color: #000 !important;
+}
+
+.text-black-outline {
+  text-shadow: 1.41px 1.41px black, 2px 0 black, 1.41px -1.41px black, 0 -2px black, -1.41px -1.41px black, -2px 0 black, -1.41px 1.41px black, 0 2px black;
 }
 
 #about {

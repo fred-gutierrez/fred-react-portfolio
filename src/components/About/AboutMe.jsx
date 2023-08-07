@@ -16,9 +16,11 @@ export function AboutMe() {
         <p>
           Welcome to my portfolio website! I'm Fred David, a Front-end Engineer
           specialized on{" "}
-          <span className="javascript-color fw-bold">JavaScript</span>. I excel
-          at crafting clean, efficient, and visually appealing web designs that
-          enhance user experience.
+          <span className="javascript-color text-black-outline fw-bold">
+            JavaScript
+          </span>
+          . I excel at crafting clean, efficient, and visually appealing web
+          designs that enhance user experience.
           <br />
           <br />
           With a keen eye for detail and up-to-date with the latest web

@@ -26,7 +26,6 @@ $nodejs-color: #68a063;
 }
 .javascript-color {
   color: $javascript-color;
-  text-shadow: 2px 2px 2px #000000;
 }
 .wordpress-color {
   color: $wordpress-color;
@@ -58,4 +57,11 @@ $nodejs-color: #68a063;
 
 .black-active {
   color: #000 !important;
+}
+
+// * Black Outline
+.text-black-outline {
+  text-shadow: 1.41px 1.41px black, 2px 0 black, 1.41px -1.41px black,
+    0 -2px black, -1.41px -1.41px black, -2px 0 black, -1.41px 1.41px black,
+    0 2px black;
 }
