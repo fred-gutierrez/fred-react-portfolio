@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import BootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
-import ReactLogo from "/src/images/skills/react-icon.png";
-import SassLogo from "/src/images/skills/sass-logo.webp";
+import BootstrapLogo from "/src/images/skills/programming/bootstrap-logo.svg";
+import ReactLogo from "/src/images/skills/programming/react-icon.png";
+import SassLogo from "/src/images/skills/programming/sass-logo.webp";
 
 export function Footer() {
   return (

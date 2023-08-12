@@ -1,15 +1,15 @@
-import SassLogo from "/src/images/skills/sass-logo.webp";
-import TypeScriptLogo from "/src/images/skills/typescript.svg";
-import BootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
-import TailwindLogo from "/src/images/skills/tailwind-logo.webp";
-import WordPressLogo from "/src/images/skills/wordpress-logo.svg";
-import GreenSockLogo from "/src/images/skills/gsap-greensock.svg";
-import PostCSSLogo from "/src/images/skills/postcss-logo.png";
-import vueLogo from "/src/images/skills/vuelogo.png";
-import nodejsLogo from "/src/images/skills/nodejs.png";
-import htmlLogo from "/src/images/skills/html-logo.png";
-import cssLogo from "/src/images/skills/css-logo.png";
-import javascriptLogo from "/src/images/skills/javascript-logo.png";
+import SassLogo from "/src/images/skills/programming/sass-logo.webp";
+import TypeScriptLogo from "/src/images/skills/programming/typescript.svg";
+import BootstrapLogo from "/src/images/skills/programming/bootstrap-logo.svg";
+import TailwindLogo from "/src/images/skills/programming/tailwind-logo.webp";
+import WordPressLogo from "/src/images/skills/programming/wordpress-logo.svg";
+import GreenSockLogo from "/src/images/skills/programming/gsap-greensock.svg";
+import PostCSSLogo from "/src/images/skills/programming/postcss-logo.png";
+import vueLogo from "/src/images/skills/programming/vuelogo.png";
+import nodejsLogo from "/src/images/skills/programming/nodejs.png";
+import htmlLogo from "/src/images/skills/programming/html-logo.png";
+import cssLogo from "/src/images/skills/programming/css-logo.png";
+import javascriptLogo from "/src/images/skills/programming/javascript-logo.png";
 
 const reactLogo = () => {
   return (

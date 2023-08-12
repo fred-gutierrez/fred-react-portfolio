@@ -1,15 +1,13 @@
 // * Skills
 // import sassLogo from "/src/images/skills/sass-logo.webp";
-import typeScriptLogo from "/src/images/skills/typescript.svg";
-import bootstrapLogo from "/src/images/skills/bootstrap-logo.svg";
-import wordPressLogo from "/src/images/skills/wordpress-logo.svg";
-import reactLogo from "/src/images/skills/react-icon.png";
-import tailwind from "/src/images/skills/tailwind-logo.webp";
-import nodejs from "/src/images/skills/nodejs.png";
+import typeScriptLogo from "/src/images/skills/programming/typescript.svg";
+import bootstrapLogo from "/src/images/skills/programming/bootstrap-logo.svg";
+import wordPressLogo from "/src/images/skills/programming/wordpress-logo.svg";
+import reactLogo from "/src/images/skills/programming/react-icon.png";
+import tailwind from "/src/images/skills/programming/tailwind-logo.webp";
+import nodejs from "/src/images/skills/programming/nodejs.png";
 
 // * Tools
-// import heroIcons from "/src/images/tools/heroicons.png";
-import fontAwesome from "/src/images/tools/fontawesome.png";
 import vite from "/src/images/tools/vite.png";
 
 // * Previews
