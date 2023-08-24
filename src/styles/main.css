@@ -195,6 +195,19 @@ body:hover .react-logo__ring--3 {
   transform: rotateZ(0deg);
 }
 
+#skills-selector-container .skill-selector-active {
+  background-color: #4b4b4b;
+  border-radius: 20px;
+}
+#skills-selector-container .skill-selector-active label {
+  color: #fff;
+  font-weight: bold;
+}
+#skills-selector-container .skill-selector-inactive label {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 #projects {
   min-height: 100vh;
   background-color: #fa5d52;

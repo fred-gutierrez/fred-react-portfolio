@@ -8,7 +8,7 @@ import tailwind from "/src/images/skills/programming/tailwind-logo.webp";
 import nodejs from "/src/images/skills/programming/nodejs.png";
 
 // * Tools
-import vite from "/src/images/tools/vite.png";
+import vite from "/src/images/skills/tools/vite-logo.png";
 
 // * Previews
 import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";

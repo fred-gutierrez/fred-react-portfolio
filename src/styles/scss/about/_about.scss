@@ -89,3 +89,20 @@ body:hover .react-logo__ring--2,
 body:hover .react-logo__ring--3 {
   transform: rotateZ(0deg);
 }
+
+#skills-selector-container {
+  .skill-selector-active {
+    background-color: #4b4b4b;
+    border-radius: 20px;
+    label {
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+  .skill-selector-inactive {
+    label {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
