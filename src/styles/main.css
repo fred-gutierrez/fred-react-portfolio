@@ -207,6 +207,12 @@ body:hover .react-logo__ring--3 {
   cursor: pointer;
   text-decoration: underline;
 }
+#skills-selector-container .skill-selector-inactive label:hover {
+  transition: 0.2s ease-in-out;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
 
 #projects {
   min-height: 100vh;
