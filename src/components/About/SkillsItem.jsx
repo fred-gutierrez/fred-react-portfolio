@@ -4,7 +4,7 @@ export default function SkillsItem(props) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="col-6 col-lg-4">
+    <div className="col-6 col-lg-4 skills-animation">
       <div className="d-flex justify-content-center">
         {props.img ? (
           <img height="95px" src={props.img} alt={props.skillName} />

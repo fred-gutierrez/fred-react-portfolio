@@ -1,13 +1,14 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AboutMe } from "./components/About/AboutMe";
 import { Contact } from "./components/Contact/Contact";
-import { Footer } from "./components/Contact/Footer";
+import { Footer } from "./components/Footer";
 import { Home } from "./components/Home/Home";
 import { NavigationBar } from "./components/NavigationBar";
 import { Offerings } from "./components/About/Offerings";
 import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/About/Skills";
 import { ArrowDown } from "./components/Home/ArrowDown";
+import animations from "./components/animations";
 
 export function App() {
   const [isWhiteBackground, setIsWhiteBackground] = useState(false);
@@ -26,6 +27,16 @@ export function App() {
   window.addEventListener("scroll", function () {
     setIsWhiteBackground(checkBackground());
   });
+
+  // * Animations
+  const didAnimate = useRef(false);
+  useEffect(() => {
+    if (didAnimate.current) {
+      return;
+    }
+    didAnimate.current = true;
+    animations();
+  }, []);
 
   return (
     <div

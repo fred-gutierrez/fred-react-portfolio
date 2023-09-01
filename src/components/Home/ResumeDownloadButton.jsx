@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function ResumeDownloadButton() {
-  //NaN
   return (
     <div className="container text-center">
       <a

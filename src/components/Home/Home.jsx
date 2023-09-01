@@ -29,15 +29,15 @@ export function Home() {
         {" "}
         <div className="text-white" style={{ margin: "25vh 0 0 0" }}>
           {" "}
-          <p className="fs-1 fw-bold m-0 lh-sm">
+          <p className="fs-1 fw-bold m-0 lh-sm home-animation">
             Fred David
             <br />
             Solís Gutiérrez <br />
           </p>
-          <span id="frontEndText" className="fs-2 fw-bold">
+          <span id="frontEndText" className="fs-2 fw-bold home-animation">
             Front-end Developer{underlineBlink()}
           </span>
-          <p>
+          <p className="home-animation">
             Development of web sites and
             <br />
             applications with{" "}
@@ -55,7 +55,9 @@ export function Home() {
             <span className="javascript-color fw-bold"> JavaScript</span> and
             more!{" "}
           </p>
-          <ResumeDownloadButton />
+          <div className="home-animation">
+            <ResumeDownloadButton />
+          </div>
         </div>
       </div>
       <BackgroundAnimation />
