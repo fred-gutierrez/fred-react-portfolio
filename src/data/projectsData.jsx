@@ -1,14 +1,14 @@
 // * Skills
 // import sassLogo from "/src/images/skills/sass-logo.webp";
-import typeScriptLogo from "/src/images/skills/programming/typescript.svg";
-import bootstrapLogo from "/src/images/skills/programming/bootstrap-logo.svg";
-import wordPressLogo from "/src/images/skills/programming/wordpress-logo.svg";
-import reactLogo from "/src/images/skills/programming/react-icon.png";
-import tailwind from "/src/images/skills/programming/tailwind-logo.webp";
-import nodejs from "/src/images/skills/programming/nodejs.png";
+import typeScriptLogo from "/src/images/skills/frontend/typescript.svg";
+import bootstrapLogo from "/src/images/skills/frontend/bootstrap-logo.svg";
+import wordPressLogo from "/src/images/skills/frontend/wordpress-logo.svg";
+import reactLogo from "/src/images/skills/frontend/react-icon.png";
+import tailwind from "/src/images/skills/frontend/tailwind-logo.webp";
+import nodejs from "/src/images/skills/backend/nodejs.png";
 
 // * Tools
-import vite from "/src/images/skills/tools/vite-logo.png";
+import vite from "/src/images/skills/other/vite-logo.png";
 
 // * Previews
 import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";

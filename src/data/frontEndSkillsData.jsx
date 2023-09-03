@@ -1,15 +1,15 @@
-import SassLogo from "/src/images/skills/programming/sass-logo.webp";
-import TypeScriptLogo from "/src/images/skills/programming/typescript.svg";
-import BootstrapLogo from "/src/images/skills/programming/bootstrap-logo.svg";
-import TailwindLogo from "/src/images/skills/programming/tailwind-logo.webp";
-import WordPressLogo from "/src/images/skills/programming/wordpress-logo.svg";
-import GreenSockLogo from "/src/images/skills/programming/gsap-greensock.svg";
-import PostCSSLogo from "/src/images/skills/programming/postcss-logo.png";
-import vueLogo from "/src/images/skills/programming/vuelogo.png";
-import nodejsLogo from "/src/images/skills/programming/nodejs.png";
-import htmlLogo from "/src/images/skills/programming/html-logo.png";
-import cssLogo from "/src/images/skills/programming/css-logo.png";
-import javascriptLogo from "/src/images/skills/programming/javascript-logo.png";
+import SassLogo from "/src/images/skills/frontend/sass-logo.webp";
+import TypeScriptLogo from "/src/images/skills/frontend/typescript.svg";
+import BootstrapLogo from "/src/images/skills/frontend/bootstrap-logo.svg";
+import TailwindLogo from "/src/images/skills/frontend/tailwind-logo.webp";
+import WordPressLogo from "/src/images/skills/frontend/wordpress-logo.svg";
+import GreenSockLogo from "/src/images/skills/frontend/gsap-greensock.svg";
+import PostCSSLogo from "/src/images/skills/frontend/postcss-logo.png";
+import vueLogo from "/src/images/skills/frontend/vuelogo.png";
+import htmlLogo from "/src/images/skills/frontend/html-logo.png";
+import cssLogo from "/src/images/skills/frontend/css-logo.png";
+import javascriptLogo from "/src/images/skills/frontend/javascript-logo.png";
+import styledComponentsLogo from "/src/images/skills/other/styled_c-logo.png";
 
 const reactLogo = () => {
   return (
@@ -53,14 +53,19 @@ export default [
     yearLearned: 2023,
   },
   {
-    skillName: "Node.js",
-    img: nodejsLogo,
+    skillName: "Styled-Components",
+    img: styledComponentsLogo,
     yearLearned: 2023,
   },
   {
     skillName: "TypeScript",
     img: TypeScriptLogo,
     yearLearned: 2023,
+  },
+  {
+    skillName: "GreenSock",
+    img: GreenSockLogo,
+    yearLearned: 2022,
   },
   {
     skillName: "Tailwind",
