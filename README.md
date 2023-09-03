@@ -4,7 +4,6 @@ This portfolio serves as a representation of my work and skills in Front-End Dev
 
 ## Technologies Used
 The portfolio is built using the following technologies:
-
 - **React**: A popular JavaScript library for building user interfaces.
 - **Bootstrap**: A front-end framework for responsive and mobile-first web development.
 - **Sass**: A powerful CSS extension language that enhances styling capabilities.
@@ -16,7 +15,7 @@ The portfolio is built using the following technologies:
 
 ## Sketch
 ![First Portfolio PageFredPortfolio](https://github.com/fred-gutierrez/Fred-React-Portfolio/assets/81400463/b8f9acd7-f449-4fda-a768-b2712e1806c2)
-_Made in **Figma** by [me](https://github.com/fred-gutierrez)._
+~ Made in **Figma** by me.
 
 ## Feedback
 I am open to any feedback, suggestions, or collaboration opportunities. If you have any questions or would like to get in touch, feel free to reach out to me via email at fredsg222@gmail.com.
