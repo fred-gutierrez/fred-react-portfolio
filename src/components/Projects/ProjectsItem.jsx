@@ -4,7 +4,7 @@ import React from "react";
 
 export function ProjectsItem(props) {
   return (
-    <div className="col-12 col-md-6 col-lg-6 col-xl-4">
+    <div className="col-12 col-md-6 col-lg-6 col-xl-6">
       <article
         key={props.id}
         className="mx-auto card text-white bg-dark mb-3"

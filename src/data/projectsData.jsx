@@ -2,7 +2,7 @@
 // import sassLogo from "/src/images/skills/sass-logo.webp";
 import typeScriptLogo from "/src/images/skills/frontend/typescript.svg";
 import bootstrapLogo from "/src/images/skills/frontend/bootstrap-logo.svg";
-import wordPressLogo from "/src/images/skills/frontend/wordpress-logo.svg";
+// import wordPressLogo from "/src/images/skills/frontend/wordpress-logo.svg";
 import reactLogo from "/src/images/skills/frontend/react-icon.png";
 import tailwind from "/src/images/skills/frontend/tailwind-logo.webp";
 import nodejs from "/src/images/skills/backend/nodejs.png";
@@ -12,12 +12,12 @@ import vite from "/src/images/skills/other/vite-logo.png";
 
 // * Previews
 import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
-import feMediaPreview from "/src/images/projects/femediapreview.png";
+// import feMediaPreview from "/src/images/projects/femediapreview.png";
 import ekaBienesRaicesPreview from "/src/images/projects/ekabienesraicespreview.png";
 
 // * Technologies
 const REACT = <span className="react-color fw-bold">React</span>;
-const WORDPRESS = <span className="wordpress-color fw-bold">WordPress</span>;
+// const WORDPRESS = <span className="wordpress-color fw-bold">WordPress</span>;
 const TYPESCRIPT = <span className="typescript-color fw-bold">TypeScript</span>;
 const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
 const NODEJS = <span className="nodejs-color fw-bold">NodeJS</span>;
@@ -43,10 +43,10 @@ let nodejsImg = {
   alt: "NodeJS",
   img: nodejs,
 };
-let wordpressImg = {
-  alt: "WordPress",
-  img: wordPressLogo,
-};
+// let wordpressImg = {
+//   alt: "WordPress",
+//   img: wordPressLogo,
+// };
 let bootstrapImg = {
   alt: "Bootstrap",
   img: bootstrapLogo,
@@ -73,23 +73,23 @@ export default [
     link: "https://ekabienesraices.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/Eka-Facebook-API",
   },
-  {
-    title: "Fé Media",
-    imgUrl: feMediaPreview,
-    description: (
-      <div>
-        Undertaken for an advertising company, this project allowed me to refine
-        my {WORDPRESS} skills. I crafted a first-rate website using {WORDPRESS}
-        's base editor, avoiding templates, and integrated key plugins,
-        Greenshift and Gutenberg, to enhance functionality and user experience.
-        This experience significantly bolstered my expertise in {WORDPRESS}{" "}
-        website development.
-      </div>
-    ),
-    stack: [wordpressImg],
-    link: "https://femedia.xyz/",
-    codeLink: false,
-  },
+  // {
+  //   title: "Fé Media",
+  //   imgUrl: feMediaPreview,
+  //   description: (
+  //     <div>
+  //       Undertaken for an advertising company, this project allowed me to refine
+  //       my {WORDPRESS} skills. I crafted a first-rate website using {WORDPRESS}
+  //       's base editor, avoiding templates, and integrated key plugins,
+  //       Greenshift and Gutenberg, to enhance functionality and user experience.
+  //       This experience significantly bolstered my expertise in {WORDPRESS}{" "}
+  //       website development.
+  //     </div>
+  //   ),
+  //   stack: [wordpressImg],
+  //   link: "https://femedia.xyz/",
+  //   codeLink: false,
+  // },
   {
     title: "React Shopping Cart",
     imgUrl: ecommercePreview,
