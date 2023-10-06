@@ -4,11 +4,11 @@ import React from "react";
 
 export function ProjectsItem(props) {
   return (
-    <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+    <div className="col-12">
       <article
         key={props.id}
         className="mx-auto card text-white bg-dark mb-3"
-        style={{ width: "21rem" }}
+        style={{ maxWidth: 620 }}
       >
         <a href={props.link} target="_blank">
           <img
@@ -18,31 +18,41 @@ export function ProjectsItem(props) {
           />
         </a>
         <div className="card-body">
-          <h5 className="card-title fw-bold">{props.title}</h5>
-          <p className="card-text m-0">{props.description}</p>
-          <div>
-            {props.stack.map((skills) => (
-              <img
-                key={nanoid()}
-                className="card-logos my-2 mx-1"
-                src={skills.img}
-                alt={skills.alt}
-              />
-            ))}
-          </div>
-          <a href={props.link} className="btn btn-primary" target="_blank">
-            <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} />{" "}
-            Website
-          </a>
-          {props.codeLink && (
-            <a
-              href={props.codeLink}
-              className="btn btn-secondary ms-2"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={["fab", "github"]} /> Code
+          <h4 className="card-title fw-bold">{props.title}</h4>
+          <p className="card-text">{props.description}</p>
+          <section>
+            <h5 className="fw-bold mt-2 mb-0">Tech Stack</h5>
+            <div className="d-flex flex-wrap">
+              {props.stack.map((skills) => (
+                <div className="d-flex my-1 me-1 align-items-center border border-2 border-secondary hover:border-white rounded-3 px-2">
+                  <img
+                    key={nanoid()}
+                    className="card-logos"
+                    src={skills.img}
+                    alt={skills.alt}
+                    style={{ width: 25 }}
+                  />
+                  <p className="ms-2 my-2">{skills.alt}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+          <div className="mt-2">
+          <h5 className="fw-bold mb-1">Links</h5>
+            <a href={props.link} className="btn btn-primary" target="_blank">
+              <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} />{" "}
+              Website
             </a>
-          )}
+            {props.codeLink && (
+              <a
+                href={props.codeLink}
+                className="btn btn-secondary ms-2"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} /> Code
+              </a>
+            )}
+          </div>
         </div>
       </article>
     </div>

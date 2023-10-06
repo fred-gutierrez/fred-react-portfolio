@@ -1,17 +1,18 @@
 // * Skills
 // import sassLogo from "/src/images/skills/sass-logo.webp";
 import typeScriptLogo from "/src/images/skills/frontend/typescript.svg";
-import bootstrapLogo from "/src/images/skills/frontend/bootstrap-logo.svg";
+// import bootstrapLogo from "/src/images/skills/frontend/bootstrap-logo.svg";
 // import wordPressLogo from "/src/images/skills/frontend/wordpress-logo.svg";
 import reactLogo from "/src/images/skills/frontend/react-icon.png";
 import tailwind from "/src/images/skills/frontend/tailwind-logo.webp";
 import nodejs from "/src/images/skills/backend/nodejs.png";
+import greensock from "/src/images/skills/other/greensock-logo.png";
 
 // * Tools
 import vite from "/src/images/skills/other/vite-logo.png";
 
 // * Previews
-import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
+// import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
 // import feMediaPreview from "/src/images/projects/femediapreview.png";
 import ekaBienesRaicesPreview from "/src/images/projects/ekabienesraicespreview.png";
 
@@ -19,7 +20,7 @@ import ekaBienesRaicesPreview from "/src/images/projects/ekabienesraicespreview.
 const REACT = <span className="react-color fw-bold">React</span>;
 // const WORDPRESS = <span className="wordpress-color fw-bold">WordPress</span>;
 const TYPESCRIPT = <span className="typescript-color fw-bold">TypeScript</span>;
-const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
+// const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
 const NODEJS = <span className="nodejs-color fw-bold">NodeJS</span>;
 
 // * Stack
@@ -43,14 +44,18 @@ let nodejsImg = {
   alt: "NodeJS",
   img: nodejs,
 };
+let greensockImg = {
+  alt: "Greensock",
+  img: greensock,
+};
 // let wordpressImg = {
 //   alt: "WordPress",
 //   img: wordPressLogo,
 // };
-let bootstrapImg = {
-  alt: "Bootstrap",
-  img: bootstrapLogo,
-};
+// let bootstrapImg = {
+//   alt: "Bootstrap",
+//   img: bootstrapLogo,
+// };
 // let sassImg = {
 //   alt: "Sass",
 //   img: sassLogo,
@@ -69,7 +74,14 @@ export default [
         chosen for long-term maintainability.
       </div>
     ),
-    stack: [reactImg, tailwindImg, viteImg, typescriptImg, nodejsImg],
+    stack: [
+      reactImg,
+      tailwindImg,
+      viteImg,
+      typescriptImg,
+      nodejsImg,
+      greensockImg,
+    ],
     link: "https://ekabienesraices.netlify.app/",
     codeLink: "https://github.com/fred-gutierrez/Eka-Facebook-API",
   },
@@ -90,19 +102,4 @@ export default [
   //   link: "https://femedia.xyz/",
   //   codeLink: false,
   // },
-  {
-    title: "React Shopping Cart",
-    imgUrl: ecommercePreview,
-    description: (
-      <div>
-        This is a working project that I will keep updating from time to time to
-        make it a fully working e-commerce page based on {REACT}. This project
-        helped me fully understand {REACT} props, components, and how to use{" "}
-        {TYPESCRIPT} rather than regular {JAVASCRIPT}.
-      </div>
-    ),
-    stack: [reactImg, bootstrapImg, typescriptImg, viteImg],
-    link: "https://fred-ecommerce-website.netlify.app/",
-    codeLink: "https://github.com/fred-gutierrez/ecommerce-website",
-  },
 ];
