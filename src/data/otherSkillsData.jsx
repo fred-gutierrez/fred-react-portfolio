@@ -6,8 +6,20 @@ import figmaLogo from "/src/images/skills/other/figma_logo.png";
 import vsCodeLogo from "/src/images/skills/other/vscode-logo.png";
 import vimLogo from "/src/images/skills/other/vim-logo.png";
 import nvimLogo from "/src/images/skills/other/nvim-logo.png";
+import linuxLogo from "/src/images/skills/other/linux-logo.png";
+import ubuntuLogo from "/src/images/skills/other/ubuntu-logo.png";
 
 export default [
+  {
+    skillName: "Ubuntu",
+    img: ubuntuLogo,
+    yearLearned: 2023,
+  },
+  {
+    skillName: "Linux",
+    img: linuxLogo,
+    yearLearned: 2023,
+  },
   {
     skillName: "NeoVim",
     img: nvimLogo,

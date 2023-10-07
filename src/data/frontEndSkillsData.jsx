@@ -10,6 +10,7 @@ import htmlLogo from "/src/images/skills/frontend/html-logo.png";
 import cssLogo from "/src/images/skills/frontend/css-logo.png";
 import javascriptLogo from "/src/images/skills/frontend/javascript-logo.png";
 import styledComponentsLogo from "/src/images/skills/other/styled_c-logo.png";
+import svelteLogo from "/src/images/skills/other/svelte-logo.png";
 
 const reactLogo = () => {
   return (
@@ -47,6 +48,11 @@ const reactLogo = () => {
 const reactComponent = reactLogo(null);
 
 export default [
+  {
+    skillName: "Svelte",
+    img: svelteLogo,
+    yearLearned: 2023,
+  },
   {
     skillName: "Vue",
     img: vueLogo,

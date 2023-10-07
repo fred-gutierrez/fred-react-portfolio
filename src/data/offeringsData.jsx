@@ -19,7 +19,7 @@ export default [
             alt="Google Lighthouse Logo"
           />
         }{" "}
-        Google Lighthouse to ensure this.
+        <span className="fw-semibold">Google Lighthouse</span> to ensure this.
       </span>
     ),
   },
