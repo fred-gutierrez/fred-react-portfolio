@@ -7,6 +7,7 @@ import reactLogo from "/src/images/skills/frontend/react-icon.png";
 import tailwind from "/src/images/skills/frontend/tailwind-logo.webp";
 import nodejs from "/src/images/skills/backend/nodejs.png";
 import greensock from "/src/images/skills/other/greensock-logo.png";
+import nextjsLogo from "/src/images/skills/frontend/next-js-icon-white.png";
 
 // * Tools
 import vite from "/src/images/skills/other/vite-logo.png";
@@ -21,9 +22,13 @@ const REACT = <span className="react-color fw-bold">React</span>;
 // const WORDPRESS = <span className="wordpress-color fw-bold">WordPress</span>;
 const TYPESCRIPT = <span className="typescript-color fw-bold">TypeScript</span>;
 // const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
-const NODEJS = <span className="nodejs-color fw-bold">NodeJS</span>;
+const NODEJS = <span className="nodejs-color fw-bold">Node.js</span>;
 
 // * Stack
+let nextImg = {
+  alt: "Next.js",
+  img: nextjsLogo,
+};
 let reactImg = {
   alt: "React",
   img: reactLogo,
@@ -41,7 +46,7 @@ let typescriptImg = {
   img: typeScriptLogo,
 };
 let nodejsImg = {
-  alt: "NodeJS",
+  alt: "Node.js",
   img: nodejs,
 };
 let greensockImg = {
@@ -67,14 +72,18 @@ export default [
     imgUrl: ekaBienesRaicesPreview,
     description: (
       <div>
-        This project aimed to display a Realtor's properties on a webpage. To
-        overcome her lack of technical expertise, a solution was developed to
-        fetch, filter, and exhibit her Facebook posts directly on the webpage,
-        using {NODEJS} and Facebook's Graph API. {TYPESCRIPT} and {REACT} were
-        chosen for long-term maintainability.
+        The project's objective was to create a user-friendly webpage for a
+        Realtor's properties, accommodating her limited technical expertise. It
+        utilized {NODEJS}, {TYPESCRIPT}, and {REACT} for long-term
+        maintainability. The solution harnessed <b>Next.js</b> for server-side
+        rendering and SEO, {NODEJS} for logic, and Facebook's Graph API to efficiently
+        display the Realtor's Facebook posts on the webpage. This amalgamation
+        of technologies ensures a responsive platform for potential clients to
+        explore the property listings.
       </div>
     ),
     stack: [
+      nextImg,
       reactImg,
       tailwindImg,
       viteImg,
@@ -82,8 +91,8 @@ export default [
       nodejsImg,
       greensockImg,
     ],
-    link: "https://ekabienesraices.netlify.app/",
-    codeLink: "https://github.com/fred-gutierrez/Eka-Facebook-API",
+    link: "https://ekabienesraices.vercel.app/",
+    codeLink: "https://github.com/fred-gutierrez/eka-facebook-api-next",
   },
   // {
   //   title: "Fé Media",

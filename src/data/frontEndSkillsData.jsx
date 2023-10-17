@@ -11,6 +11,7 @@ import cssLogo from "/src/images/skills/frontend/css-logo.png";
 import javascriptLogo from "/src/images/skills/frontend/javascript-logo.png";
 import styledComponentsLogo from "/src/images/skills/other/styled_c-logo.png";
 import svelteLogo from "/src/images/skills/other/svelte-logo.png";
+import nextjsLogo from "/src/images/skills/frontend/next-js-icon.png";
 
 const reactLogo = () => {
   return (
@@ -48,6 +49,11 @@ const reactLogo = () => {
 const reactComponent = reactLogo(null);
 
 export default [
+  {
+    skillName: "Next.js",
+    img: nextjsLogo,
+    yearLearned: 2023,
+  },
   {
     skillName: "Svelte",
     img: svelteLogo,

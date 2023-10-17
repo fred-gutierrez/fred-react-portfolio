@@ -2,19 +2,21 @@ import FredPhoto from "/src/images/fred-image2.webp";
 
 export function AboutMe() {
   return (
-    <div class="col-12 col-md-6 col-lg-6 text-center">
-      <h2 className="fw-bold mb-4">About me</h2>
-      <div className="p-4 rounded-5" id="paragraph2">
-        <img
-          class="wobble-hor-bottom my-4 rounded-circle"
-          width="200px"
-          height="200px"
-          id="fred-photo"
-          src={FredPhoto}
-          alt="Fred's Photo"
-        />
+    <div className="col-12 col-md-6 col-lg-6 ">
+      <h2 className="fw-bold mb-4 text-center">About me</h2>
+      <div className="px-4 py-2 rounded-5" id="paragraph2">
+        <div className="text-center">
+          <img
+            className="wobble-hor-bottom my-4  rounded-circle"
+            width="200px"
+            height="200px"
+            id="fred-photo"
+            src={FredPhoto}
+            alt="Fred's Photo"
+          />
+        </div>
         <p>
-          Welcome to my portfolio website! I'm Fred David, a Front-end Engineer
+          Welcome to my portfolio website! I'm Fred David, a Front-End Developer 
           specialized on{" "}
           <span className="javascript-color text-black-outline fw-bold">
             JavaScript
