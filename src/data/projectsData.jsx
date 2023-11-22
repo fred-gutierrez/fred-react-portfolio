@@ -1,8 +1,5 @@
 // * Skills
-// import sassLogo from "/src/images/skills/sass-logo.webp";
 import typeScriptLogo from "/src/images/skills/frontend/typescript.svg";
-// import bootstrapLogo from "/src/images/skills/frontend/bootstrap-logo.svg";
-// import wordPressLogo from "/src/images/skills/frontend/wordpress-logo.svg";
 import reactLogo from "/src/images/skills/frontend/react-icon.png";
 import tailwind from "/src/images/skills/frontend/tailwind-logo.webp";
 import nodejs from "/src/images/skills/backend/nodejs.png";
@@ -13,15 +10,12 @@ import nextjsLogo from "/src/images/skills/frontend/next-js-icon-white.png";
 import vite from "/src/images/skills/other/vite-logo.png";
 
 // * Previews
-// import ecommercePreview from "/src/images/projects/ecommerce-website-preview.png";
-// import feMediaPreview from "/src/images/projects/femediapreview.png";
 import ekaBienesRaicesPreview from "/src/images/projects/ekabienesraicespreview.png";
+import snapNotePreview from "/src/images/projects/darkandlightmode-chrome.png";
 
 // * Technologies
 const REACT = <span className="react-color fw-bold">React</span>;
-// const WORDPRESS = <span className="wordpress-color fw-bold">WordPress</span>;
 const TYPESCRIPT = <span className="typescript-color fw-bold">TypeScript</span>;
-// const JAVASCRIPT = <span className="javascript-color fw-bold">JavaScript</span>;
 const NODEJS = <span className="nodejs-color fw-bold">Node.js</span>;
 
 // * Stack
@@ -53,18 +47,6 @@ let greensockImg = {
   alt: "Greensock",
   img: greensock,
 };
-// let wordpressImg = {
-//   alt: "WordPress",
-//   img: wordPressLogo,
-// };
-// let bootstrapImg = {
-//   alt: "Bootstrap",
-//   img: bootstrapLogo,
-// };
-// let sassImg = {
-//   alt: "Sass",
-//   img: sassLogo,
-// };
 
 export default [
   {
@@ -76,10 +58,10 @@ export default [
         Realtor's properties, accommodating her limited technical expertise. It
         utilized {NODEJS}, {TYPESCRIPT}, and {REACT} for long-term
         maintainability. The solution harnessed <b>Next.js</b> for server-side
-        rendering and SEO, {NODEJS} for logic, and Facebook's Graph API to efficiently
-        display the Realtor's Facebook posts on the webpage. This amalgamation
-        of technologies ensures a responsive platform for potential clients to
-        explore the property listings.
+        rendering and SEO, {NODEJS} for logic, and Facebook's Graph API to
+        efficiently display the Realtor's Facebook posts on the webpage. This
+        amalgamation of technologies ensures a responsive platform for potential
+        clients to explore the property listings.
       </div>
     ),
     stack: [
@@ -94,21 +76,24 @@ export default [
     link: "https://ekabienesraices.vercel.app/",
     codeLink: "https://github.com/fred-gutierrez/eka-facebook-api-next",
   },
-  // {
-  //   title: "Fé Media",
-  //   imgUrl: feMediaPreview,
-  //   description: (
-  //     <div>
-  //       Undertaken for an advertising company, this project allowed me to refine
-  //       my {WORDPRESS} skills. I crafted a first-rate website using {WORDPRESS}
-  //       's base editor, avoiding templates, and integrated key plugins,
-  //       Greenshift and Gutenberg, to enhance functionality and user experience.
-  //       This experience significantly bolstered my expertise in {WORDPRESS}{" "}
-  //       website development.
-  //     </div>
-  //   ),
-  //   stack: [wordpressImg],
-  //   link: "https://femedia.xyz/",
-  //   codeLink: false,
-  // },
+  {
+    title: "SnapNote",
+    imgUrl: snapNotePreview,
+    description: (
+      <div>
+        SnapNote is an open-source browser extension designed for lightning-fast
+        note-taking during web browsing. Fueled by CRXJS, {REACT}, {TYPESCRIPT},
+        Tailwind CSS, and Vite, it offers a modern interface with a primary
+        focus on <b>speed</b>. Leveraging BlockNote, a block-based rich text editor,
+        SnapNote includes features for downloading notes in Markdown and HTML
+        formats, along with a convenient text-copying option.
+      </div>
+    ),
+    stack: [reactImg, typescriptImg, tailwindImg, viteImg],
+    link: "https://snapnote-demo.vercel.app/",
+    codeLink: "https://github.com/fred-gutierrez/SnapNote",
+    chromeDownload:
+      "https://chromewebstore.google.com/detail/snapnote/gblgefagjalfolidiedaepbkacajaeng",
+    fireFoxDownload: "https://addons.mozilla.org/en-US/firefox/addon/snapnote/",
+  },
 ];

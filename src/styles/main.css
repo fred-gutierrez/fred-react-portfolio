@@ -130,8 +130,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.18);
   background: rgba(163, 163, 163, 0.25) none repeat scroll 0% 0%;
   box-shadow: rgba(105, 105, 105, 0.37) 0px 8px 10px 0px;
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
   max-width: 440px;
   margin: 0 auto;
 }
@@ -439,4 +438,6 @@ form textarea {
 .orange-red-down-wave {
   background-image: url("/src/images/waves/orange-red-down-wave.svg");
   background-color: #000;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

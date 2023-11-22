@@ -17,6 +17,8 @@ export function Projects() {
               stack={props.stack}
               link={props.link}
               codeLink={props.codeLink}
+              chromeDownload={props.chromeDownload}
+              fireFoxDownload={props.fireFoxDownload}
             />
           ))}
         </div>

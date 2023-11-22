@@ -4,7 +4,7 @@ import React from "react";
 
 export function ProjectsItem(props) {
   return (
-    <div className="col-12">
+    <div className="col-12 col-md-6">
       <article
         key={props.id}
         className="mx-auto card text-white bg-dark mb-3"
@@ -38,10 +38,12 @@ export function ProjectsItem(props) {
             </div>
           </section>
           <div className="mt-2">
-          <h5 className="fw-bold mb-1">Links</h5>
+            <h5 className="fw-bold mb-1">Links</h5>
             <a href={props.link} className="btn btn-primary" target="_blank">
               <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} />{" "}
-              Website
+              {props.fireFoxDownload || props.chromeDownload
+                ? "Demo"
+                : "Website"}
             </a>
             {props.codeLink && (
               <a
@@ -50,6 +52,24 @@ export function ProjectsItem(props) {
                 target="_blank"
               >
                 <FontAwesomeIcon icon={["fab", "github"]} /> Code
+              </a>
+            )}
+            {props.chromeDownload && (
+              <a
+                href={props.chromeDownload}
+                className="btn btn-success ms-2"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={["fab", "chrome"]} /> Chrome
+              </a>
+            )}
+            {props.fireFoxDownload && (
+              <a
+                href={props.fireFoxDownload}
+                className="btn btn-warning ms-2"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={["fab", "firefox-browser"]} /> Firefox
               </a>
             )}
           </div>

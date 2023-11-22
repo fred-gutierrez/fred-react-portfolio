@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "postcss:watch": "postcss src/styles/main.css --dir src/styles/postcss --watch"
+    "postcss:watch": "postcss src/styles/main.css --dir src/styles/postcss --watch",
+    "sass:watch": "sass --watch src/styles/scss:src/styles/"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
